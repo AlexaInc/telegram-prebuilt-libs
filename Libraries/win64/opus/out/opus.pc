@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local
+exec_prefix=D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local
+libdir=D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib
+includedir=D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include
+
+Name: Opus
+Description: Opus IETF audio codec ( build)
+URL: https://opus-codec.org/
+Version: 1.5.2
+Requires:
+Conflicts:
+Libs: -LD:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib -lopus
+Libs.private: 
+Cflags: -ID:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus

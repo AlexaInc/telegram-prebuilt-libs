@@ -1,0 +1,14 @@
+# pkg-config file from libvpx v1.14.1
+prefix=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x64
+includedir=${prefix}/include
+
+Name: vpx
+Description: WebM Project VPx codec implementation
+Version: 1.14.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lvpxmt
+Libs.private:
+Cflags: -I${includedir}

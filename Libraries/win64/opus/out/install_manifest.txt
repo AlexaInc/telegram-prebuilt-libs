@@ -1,0 +1,11 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/opus.lib
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus/opus.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus/opus_defines.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus/opus_multistream.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus/opus_projection.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/opus/opus_types.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/pkgconfig/opus.pc
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/Opus/OpusTargets.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/Opus/OpusTargets-release.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/Opus/OpusConfig.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/Opus/OpusConfigVersion.cmake

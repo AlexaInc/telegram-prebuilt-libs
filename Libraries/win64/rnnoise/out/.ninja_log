@@ -1,0 +1,17 @@
+# ninja log v5
+11	163	7990867762500273	CMakeFiles/rnnoise.dir/Debug/src/denoise.c.obj	d3859f5ef0c894d0
+13	169	7990867762500273	CMakeFiles/rnnoise.dir/Debug/src/pitch.c.obj	c97b159d8c5f267b
+8	192	7990867762859323	CMakeFiles/rnnoise.dir/Debug/src/celt_lpc.c.obj	694d39192fc927b5
+3	194	7990867762824065	CMakeFiles/rnnoise.dir/Debug/src/rnn.c.obj	45d72e37fb74607
+6	197	7990867762915043	CMakeFiles/rnnoise.dir/Debug/src/rnn_reader.c.obj	8f31ff7e0de14df0
+16	237	7990867763323975	CMakeFiles/rnnoise.dir/Debug/src/rnn_data.c.obj	17fd4147e0d1f1ad
+164	249	7990867763445240	CMakeFiles/rnnoise.dir/Debug/src/kiss_fft.c.obj	d541fbfffebaae98
+249	286	7990867763801238	Debug/rnnoise.lib	3f9b84fabcd8150a
+8	252	7990867766411475	CMakeFiles/rnnoise.dir/Release/src/celt_lpc.c.obj	60ed49d431d4dd06
+6	256	7990867766656141	CMakeFiles/rnnoise.dir/Release/src/rnn_reader.c.obj	2fbc541202fd1113
+17	465	7990867768371703	CMakeFiles/rnnoise.dir/Release/src/rnn_data.c.obj	faf0fdfbbd9f5092
+14	522	7990867769214294	CMakeFiles/rnnoise.dir/Release/src/pitch.c.obj	cad0156ed86f8b62
+4	645	7990867770395873	CMakeFiles/rnnoise.dir/Release/src/rnn.c.obj	3b8757819f90e5f
+11	685	7990867770988136	CMakeFiles/rnnoise.dir/Release/src/denoise.c.obj	830ef9d7fd7e16bd
+252	705	7990867771208192	CMakeFiles/rnnoise.dir/Release/src/kiss_fft.c.obj	100fe3b7a524c3ef
+705	741	7990867771551513	Release/rnnoise.lib	8e34564c3a371d05

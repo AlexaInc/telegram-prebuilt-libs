@@ -1,0 +1,135 @@
+name: Build Libraries
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+concurrency:
+  group: build-libs
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build All Libraries
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git config --global pull.rebase true
+          git config --global core.autocrlf false
+
+      - name: Enable Developer Command Prompt
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Ninja
+        run: |
+          choco install ninja
+          ninja --version
+
+      - name: (L) patches
+        run: python Telegram/build/prepare/prepare.py patches qt6
+
+      - name: (L) msys64
+        run: python Telegram/build/prepare/prepare.py msys64 qt6
+
+      - name: (L) python
+        run: python Telegram/build/prepare/prepare.py python qt6
+
+      - name: (L) NuGet
+        run: python Telegram/build/prepare/prepare.py NuGet qt6
+
+      - name: (L) jom
+        run: python Telegram/build/prepare/prepare.py jom qt6
+
+      - name: (L) gyp
+        run: python Telegram/build/prepare/prepare.py gyp qt6
+
+      - name: (L) lzma
+        run: python Telegram/build/prepare/prepare.py lzma qt6
+
+      - name: (L) zlib
+        run: python Telegram/build/prepare/prepare.py zlib qt6
+
+      - name: (L) mozjpeg
+        run: python Telegram/build/prepare/prepare.py mozjpeg qt6
+
+      - name: (L) openssl3
+        run: python Telegram/build/prepare/prepare.py openssl3 qt6
+
+      - name: (L) opus
+        run: python Telegram/build/prepare/prepare.py opus qt6
+
+      - name: (L) rnnoise
+        run: python Telegram/build/prepare/prepare.py rnnoise qt6
+
+      - name: (L) gas-preprocessor
+        run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
+
+      - name: (L) dav1d
+        run: python Telegram/build/prepare/prepare.py dav1d qt6
+
+      - name: (L) openh264
+        run: python Telegram/build/prepare/prepare.py openh264 qt6
+
+      - name: (L) libavif
+        run: python Telegram/build/prepare/prepare.py libavif qt6
+
+      - name: (L) libde265
+        run: python Telegram/build/prepare/prepare.py libde265 qt6
+
+      - name: (L) libwebp
+        run: python Telegram/build/prepare/prepare.py libwebp qt6
+
+      - name: (L) libheif
+        run: python Telegram/build/prepare/prepare.py libheif qt6
+
+      - name: (L) libjxl
+        run: python Telegram/build/prepare/prepare.py libjxl qt6
+
+      - name: (L) libvpx
+        run: python Telegram/build/prepare/prepare.py libvpx qt6
+
+      - name: (L) liblcms2
+        run: python Telegram/build/prepare/prepare.py liblcms2 qt6
+
+      - name: (L) nv-codec-headers
+        run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
+
+      - name: (L) regex
+        run: python Telegram/build/prepare/prepare.py regex qt6
+
+      - name: (L) ffmpeg
+        run: python Telegram/build/prepare/prepare.py ffmpeg qt6
+
+      - name: (L) openal-soft
+        run: python Telegram/build/prepare/prepare.py openal-soft qt6
+
+      - name: (L) breakpad
+        run: python Telegram/build/prepare/prepare.py breakpad qt6
+
+      - name: (L) qt_6.11.0
+        run: python Telegram/build/prepare/prepare.py qt_6.11.0 qt6
+
+      - name: (L) tg_owt
+        run: python Telegram/build/prepare/prepare.py tg_owt qt6
+
+      - name: (L) ada
+        run: python Telegram/build/prepare/prepare.py ada qt6
+
+      - name: (L) protobuf
+        run: python Telegram/build/prepare/prepare.py protobuf qt6
+
+      - name: (L) tde2e
+        run: python Telegram/build/prepare/prepare.py tde2e qt6

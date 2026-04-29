@@ -1,0 +1,5 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/rnnoise/out/CMakeFiles/rnnoise.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/rnnoise/out/CMakeFiles/edit_cache.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/rnnoise/out/CMakeFiles/rebuild_cache.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/rnnoise/out/CMakeFiles/install.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/rnnoise/out/CMakeFiles/install/local.dir
