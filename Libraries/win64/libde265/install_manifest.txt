@@ -1,0 +1,8 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/libde265.lib
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/libde265/de265.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/libde265/en265.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/libde265/de265-version.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/libde265/libde265Config.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/libde265/libde265Config-release.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/cmake/libde265/libde265ConfigVersion.cmake
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/pkgconfig/libde265.pc
