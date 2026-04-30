@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      54AEF8091C5BD4E966360D73953780302484462F
+      1B82805B33F85FC39731AF0564A289CD58A5FFC3
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEVK74CRxb1OlmNg1zlTeAMCSERi8FAmnzhgMCHQAACgkQlTeA
-MCSERi8Z9A//cDHyBtGoxc/e+URtEQXn+V/1YreIgIT+lLoc2itzM/BSJh5gb29e
-tyEekteoTkAxj6rFKShJK6kpnYneKoJ+dxRi5p5R4TGAcm1Y6kSWiq6gxMq4BcL3
-qBTb1be48ti570/Lx0pBo6DPXBY5xYKDTVskMPcnlj/P+TGNXaF+wKgDCsjvYRN/
-0OzgAosI18LzzIcbyYmzlXhIfqigYrw9UJC9G5DoAnDettqKpPqGXlOjqyxk/Ff6
-aLIuReoMJBT4om+EYfO3sFLXp/pVWz83DVNKe5lozdHPo7G1os5jPgcX648S/Og2
-15xYUiOsxaPmuj4n4UD4V7CcqHBjjm7yHQcT3GTYbNuYHQjjuFU5BaZpv7nAaC5b
-MVj0RXJsAB5QiJuoUjbn9ufYW1qqhgTKgnzYyY7EwpLoEQkRztbth/nv1hgdZOi/
-/QeYE5nD0V+gx8Yt5aaqVl8t3nCh3f/2XNoFXHA8gSL+umCi49/Lp1leIEIQ8o2Q
-KJYV2YmzLxmvdtYVdf0cGNiCRfDO4k1h84PXzMumc5n18hQsqIVHXjIVUIBpv6Cy
-Y3vNKs0ItKxEvA8GGrPd7282rs/63C0MMtTwN9awqo5HAI8OjgkRHiJs1bIc9Mnw
-5gRnmJ3ZI1HvlH4EhVz1oIuCHqVkEXb6UbOAGtjjGOHn2K8V9WHvpm0=
-=K+nN
+iQI2BCABCAAgFiEEG4KAWzP4X8OXMa8FZKKJzVil/8MFAmnzj2UCHQAACgkQZKKJ
+zVil/8OCfw/9FO0Xhv6OFTyWtE6DVexnCI0kOOCg7g5WsmT1XyL4zo/xoiP8Xy7E
+/cwZXA648vKkzFyOlb/3LkHLZWER8eaFdUqG+7SEXoirIKZnQC9KhW+o9hNb1Gl+
+u1fvIVhpvUJcIvuTcyI2u2v+WCwWl4PT8RunsHUEt+Q/EpxC0lB1X/EpDAMw5d9q
+/66qQTPk2nYU39zwilCiPvP29dbuBCfShxZxA+nw85i6C9hQkX1y5kdycrF9NbHc
+fBLmxufaUyJFgdY0AmkANsgGuqYVop2/xzHPaogBH253Ohxxd9swtF8KFHV/etAX
+LmNYckCVOW1ewLPEAL47jwmTlSLw53HEZiveMKJLdy7ma7yW6+5FFiB2uWRByYT6
+nmjU1aXfmOWXP4rA9AT62Kh2euEcr3FAXMWxzVM8HxKaZPjmWaHnqHkM+531PGEo
+IdT1UvJiRusa9oz/LDmaCL4nCatkPz/8wmARrFg8i1q6hRue8l6sYRuLhYOnfPhZ
+WL/QNQjQQTUawRadzEYm19pMN5uJ3pvQxql3SEAVcB3ppX/H0B125ZLBAKdsdTtR
+3DcRA4Eqh6zoV6E9KavvzOjW2pVIUuVA7ZUAkIprGf1JdxTQOIH1FJuuERcGTAEO
+IHaHAObZRWrPT9A020meBVYaZ3tC+AkCrBtbuOs5gj+jYeAxoB6jMKE=
+=7LCV
 -----END PGP PUBLIC KEY BLOCK-----
