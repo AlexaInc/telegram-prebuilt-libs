@@ -104,8 +104,8 @@ jobs:
       # - name: (L) liblcms2
       #   run: python Telegram/build/prepare/prepare.py liblcms2 qt6
 
-      # - name: (L) nv-codec-headers
-      #   run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
+      - name: (L) nv-codec-headers
+        run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
 
       # - name: (L) regex
       #   run: python Telegram/build/prepare/prepare.py regex qt6
