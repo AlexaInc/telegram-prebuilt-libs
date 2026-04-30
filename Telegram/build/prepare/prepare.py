@@ -1246,7 +1246,7 @@ winarm:
 win:
 depends:patches/build_ffmpeg_win.sh
     if not exist %THIRDPARTY_DIR%\\msys64\\tmp mkdir %THIRDPARTY_DIR%\\msys64\\tmp
-    bash -c "mkdir -p /tmp && sed -i '/nv-codec-headers/d' ../patches/build_ffmpeg_win.sh && sed -i '/local.*install/d' ../patches/build_ffmpeg_win.sh && bash ../patches/build_ffmpeg_win.sh || (cat ffbuild/config.log && exit 1)"
+    bash -c "mkdir -p /tmp && sed -i '/nv-codec-headers/d' ../patches/build_ffmpeg_win.sh && sed -i '/local.*install/d' ../patches/build_ffmpeg_win.sh && sed -i 's|export PKG_CONFIG_PATH=.*|export PKG_CONFIG_PATH=\$(cygpath -m \$FullExecPath/../local/lib/pkgconfig)|' ../patches/build_ffmpeg_win.sh && bash ../patches/build_ffmpeg_win.sh || (cat ffbuild/config.log && exit 1)"
 mac:
     export PKG_CONFIG_PATH=$USED_PREFIX/lib/pkgconfig
 
