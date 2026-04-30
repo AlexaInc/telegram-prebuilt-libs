@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      99C60A61C1662D25A92EBC0B8DC3B36C29377BBE
+      54AEF8091C5BD4E966360D73953780302484462F
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEmcYKYcFmLSWpLrwLjcOzbCk3e74FAmnzTaYCHQAACgkQjcOz
-bCk3e76m9w//WVo2SL17l7KtDjDrgDMpENSaK71PZBiKX9/nu1yZut0ByoM1CK2f
-uIHOPnYoYFCZHEomFqqtEp/FQr32x91Su9V9c5jLXHOKYpJGaPFylckba0NpcdDu
-DOYE7RGLWt8M/TTf1jgaNh9kQdzOx5f5ufjzQb2ppwZkyw1XUx1v8symv3+htmix
-jG5eb3l6cLY6ohZCZMhtpl3t15fre2fbGvn8Q301/EEwcGLEH57J0PcwvXA++rd1
-nOU/EczyhB6rf+Mh72S8hiHjt7l2IoPfUuFbpzh11tMWNe8YMwt6zfvHu4GqwuRA
-a83zWpiZJYWLT+1B5w9J7ULS3GSlqyMYADbmbrEu7IEpfdsXIE3qR0UMMpAOEV8M
-vUp+FLWtQTfZb0vnQNEpOVmBxJzpvTZcrzgwm15gWDqO/ywao82jp43Yt73hzesG
-0InR1pIUSoUluLiJCgY3CSA/AxXHzGSpTPgdMgGEFdKgAiftNe/31HQPW5FmIuHj
-t+Vx75UycuXauRNjIcuF92LFhpeRoB1CiLb8TU2dtoHviDoTiHS824cBZBCfX1x1
-nCBK3v8d7peZW5fcp72l2miYdVlpiN8Ozes3ehcYdFXKKyDpJyogu3DrNOI4eL7d
-3rWlzn15YbZ6NUm5EXByNMACMvr2vII7uT8WPgvRBT/ryhpFB5RM2Zk=
-=J6/C
+iQI2BCABCAAgFiEEVK74CRxb1OlmNg1zlTeAMCSERi8FAmnzhgMCHQAACgkQlTeA
+MCSERi8Z9A//cDHyBtGoxc/e+URtEQXn+V/1YreIgIT+lLoc2itzM/BSJh5gb29e
+tyEekteoTkAxj6rFKShJK6kpnYneKoJ+dxRi5p5R4TGAcm1Y6kSWiq6gxMq4BcL3
+qBTb1be48ti570/Lx0pBo6DPXBY5xYKDTVskMPcnlj/P+TGNXaF+wKgDCsjvYRN/
+0OzgAosI18LzzIcbyYmzlXhIfqigYrw9UJC9G5DoAnDettqKpPqGXlOjqyxk/Ff6
+aLIuReoMJBT4om+EYfO3sFLXp/pVWz83DVNKe5lozdHPo7G1os5jPgcX648S/Og2
+15xYUiOsxaPmuj4n4UD4V7CcqHBjjm7yHQcT3GTYbNuYHQjjuFU5BaZpv7nAaC5b
+MVj0RXJsAB5QiJuoUjbn9ufYW1qqhgTKgnzYyY7EwpLoEQkRztbth/nv1hgdZOi/
+/QeYE5nD0V+gx8Yt5aaqVl8t3nCh3f/2XNoFXHA8gSL+umCi49/Lp1leIEIQ8o2Q
+KJYV2YmzLxmvdtYVdf0cGNiCRfDO4k1h84PXzMumc5n18hQsqIVHXjIVUIBpv6Cy
+Y3vNKs0ItKxEvA8GGrPd7282rs/63C0MMtTwN9awqo5HAI8OjgkRHiJs1bIc9Mnw
+5gRnmJ3ZI1HvlH4EhVz1oIuCHqVkEXb6UbOAGtjjGOHn2K8V9WHvpm0=
+=K+nN
 -----END PGP PUBLIC KEY BLOCK-----
