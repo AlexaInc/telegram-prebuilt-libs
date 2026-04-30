@@ -27,6 +27,8 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global pull.rebase true
           git config --global core.autocrlf false
+          git config --global http.postBuffer 524288000
+          git config --global https.postBuffer 524288000
 
       - name: Enable Developer Command Prompt
         uses: ilammy/msvc-dev-cmd@v1
@@ -59,19 +61,19 @@ jobs:
       - name: (L) gas-preprocessor
         run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
 
-      # RE-ENABLE MOZJPEG (REQUIRED FOR JCONFIG.H)
+      # RE-ENABLE MOZJPEG FOR JCONFIG.H
       - name: (L) mozjpeg
         run: |
           python Telegram/build/prepare/prepare.py mozjpeg qt6
           git add Libraries/win64/mozjpeg Libraries/win64/cache_keys/mozjpeg
-          git diff --quiet --staged || (git commit -m "Sync mozjpeg artifacts (fix jconfig.h)" && git push)
+          git diff --quiet --staged || (git commit -m "Sync mozjpeg artifacts" && git push)
 
-      # START QT 6
+      # QT 6 WITH SELECTIVE SYNC
       - name: (L) qt_6.11.0
         run: |
           python Telegram/build/prepare/prepare.py qt_6.11.0 qt6
-          git add Libraries/win64/Qt-6.11.0
-          git diff --quiet --staged || (git commit -m "Sync qt_6.11.0 artifacts" && git push)
+          git add Libraries/win64/Qt-6.11.0/include Libraries/win64/Qt-6.11.0/lib Libraries/win64/Qt-6.11.0/bin Libraries/win64/Qt-6.11.0/mkspecs Libraries/win64/Qt-6.11.0/plugins
+          git diff --quiet --staged || (git commit -m "Sync qt_6.11.0 core artifacts" && git push)
 
       - name: (L) tg_owt
         run: |
