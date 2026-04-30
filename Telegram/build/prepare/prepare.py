@@ -489,21 +489,10 @@ def runStages():
             #             if not any(item.endswith(ext) for ext in ['.h', '.lib', '.a', '.pdb', '.pc']):
             #                 os.remove(item_path)
 
-            old_dir = os.getcwd()
-            os.chdir(rootDir)
-            subprocess.run("git add -A", shell=True)
-            subprocess.run(f'git commit -m "Auto-build: {stage["name"]} [skip ci]"', shell=True)
-            
-            # Retry push loop to handle flaky runner networking or conflicts
-            for retry in range(5):
-                print_flushed(f"Push attempt {retry+1}...")
-                subprocess.run("git fetch origin master", shell=True)
-                if subprocess.run("git pull --rebase --autostash origin master", shell=True).returncode == 0:
-                    if subprocess.run("git push origin master", shell=True).returncode == 0:
-                        break
-                time.sleep(10)
-            
-            os.chdir(old_dir)
+            # os.chdir(old_dir)
+            # subprocess.run("git add -A", shell=True)
+            # ... (Redundant sync logic removed to prevent hangs)
+            pass
 
 if customRunCommand:
     os.chdir(executePath)
