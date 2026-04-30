@@ -1,0 +1,438 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/3.31.6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-10cb32"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-10cb32"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-10cb32'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a2534
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_a2534.dir\\Debug\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_a2534.dir\\Debug\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_a2534.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a2534.dir\\Debug\\CMakeCCompilerABI.c.obj  /out:Debug\\cmTC_a2534.exe /implib:Debug\\cmTC_a2534.lib /pdb:Debug\\cmTC_a2534.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~2/2022/ENTERP~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~2/2022/ENTERP~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xs3v5f"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xs3v5f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xs3v5f'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_bb054
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_bb054.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_bb054.dir\\Debug\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_bb054.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bb054.dir\\Debug\\CMakeCXXCompilerABI.cpp.obj  /out:Debug\\cmTC_bb054.exe /implib:Debug\\cmTC_bb054.lib /pdb:Debug\\cmTC_bb054.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~2/2022/ENTERP~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~2/2022/ENTERP~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:21 (CHECK_INCLUDE_FILE_CXX)"
+    checks:
+      - "Looking for C++ include bit"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xb8u4z"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xb8u4z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_BIT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-xb8u4z'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_5a20e
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_5a20e.dir\\Debug\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_5a20e.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-xb8u4z\\CheckIncludeFile.cxx
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\include\\bit(11): warning STL4038: The contents of <bit> are available only with C++20 or later.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_5a20e.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a20e.dir\\Debug\\CheckIncludeFile.cxx.obj  /out:Debug\\cmTC_5a20e.exe /implib:Debug\\cmTC_5a20e.lib /pdb:Debug\\cmTC_5a20e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:26 (CHECK_INCLUDE_FILE_CXX)"
+    checks:
+      - "Looking for C++ include unistd.h"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-kerhtj"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-kerhtj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-kerhtj'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4c2aa
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_4c2aa.dir\\Debug\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_4c2aa.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-kerhtj\\CheckIncludeFile.cxx
+        FAILED: [code=2] CMakeFiles/cmTC_4c2aa.dir/Debug/CheckIncludeFile.cxx.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_4c2aa.dir\\Debug\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_4c2aa.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-kerhtj\\CheckIncludeFile.cxx
+        D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-kerhtj\\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:68 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test has_potentially_evaluated_expression"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-tn6zf5"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-tn6zf5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "has_potentially_evaluated_expression"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-tn6zf5'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c0db9
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dhas_potentially_evaluated_expression -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++20 -MTd   -Wno-error=potentially-evaluated-expression /showIncludes /FoCMakeFiles\\cmTC_c0db9.dir\\Debug\\src.cxx.obj /FdCMakeFiles\\cmTC_c0db9.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-tn6zf5\\src.cxx
+        FAILED: [code=2] CMakeFiles/cmTC_c0db9.dir/Debug/src.cxx.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dhas_potentially_evaluated_expression -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++20 -MTd   -Wno-error=potentially-evaluated-expression /showIncludes /FoCMakeFiles\\cmTC_c0db9.dir\\Debug\\src.cxx.obj /FdCMakeFiles\\cmTC_c0db9.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-tn6zf5\\src.cxx
+        cl : Command line error D8021 : invalid numeric argument '/Wno-error=potentially-evaluated-expression'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:509 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for _LIBCPP_VERSION"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-qo0ndi"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-qo0ndi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/cmake/modules"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LIBCPP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-qo0ndi'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7a0ec
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++20 -MTd /showIncludes /FoCMakeFiles\\cmTC_7a0ec.dir\\Debug\\CheckSymbolExists.cxx.obj /FdCMakeFiles\\cmTC_7a0ec.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-qo0ndi\\CheckSymbolExists.cxx
+        FAILED: [code=2] CMakeFiles/cmTC_7a0ec.dir/Debug/CheckSymbolExists.cxx.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++20 -MTd /showIncludes /FoCMakeFiles\\cmTC_7a0ec.dir\\Debug\\CheckSymbolExists.cxx.obj /FdCMakeFiles\\cmTC_7a0ec.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-qo0ndi\\CheckSymbolExists.cxx
+        D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-qo0ndi\\CheckSymbolExists.cxx(8): error C2065: '_LIBCPP_VERSION': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "libheif/CMakeLists.txt:274 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-9qo6ub"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-9qo6ub"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/cmake/modules"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-9qo6ub'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_58da8
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_58da8.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_58da8.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-9qo6ub\\src.c
+        FAILED: [code=2] CMakeFiles/cmTC_58da8.dir/Debug/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_58da8.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_58da8.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-9qo6ub\\src.c
+        D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-9qo6ub\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "libheif/CMakeLists.txt:274 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-t67hke"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-t67hke"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/cmake/modules"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-t67hke'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_243b2
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_243b2.dir\\Debug\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_243b2.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-t67hke\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_243b2.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_243b2.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_243b2.exe /implib:Debug\\cmTC_243b2.lib /pdb:Debug\\cmTC_243b2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: [code=4294967295] Debug/cmTC_243b2.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_243b2.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_243b2.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_243b2.exe /implib:Debug\\cmTC_243b2.lib /pdb:Debug\\cmTC_243b2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_243b2.dir\\Debug\\CheckFunctionExists.c.obj /out:Debug\\cmTC_243b2.exe /implib:Debug\\cmTC_243b2.lib /pdb:Debug\\cmTC_243b2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_243b2.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_243b2.dir\\Debug/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: -1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "libheif/CMakeLists.txt:274 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-4fibr7"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-4fibr7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/cmake/modules"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libheif/CMakeFiles/CMakeScratch/TryCompile-4fibr7'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ce264
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MTd /showIncludes /FoCMakeFiles\\cmTC_ce264.dir\\Debug\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ce264.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\libheif\\CMakeFiles\\CMakeScratch\\TryCompile-4fibr7\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ce264.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ce264.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_ce264.exe /implib:Debug\\cmTC_ce264.lib /pdb:Debug\\cmTC_ce264.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: [code=4294967295] Debug/cmTC_ce264.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ce264.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ce264.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_ce264.exe /implib:Debug\\cmTC_ce264.lib /pdb:Debug\\cmTC_ce264.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ce264.dir\\Debug\\CheckFunctionExists.c.obj /out:Debug\\cmTC_ce264.exe /implib:Debug\\cmTC_ce264.lib /pdb:Debug\\cmTC_ce264.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ce264.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_ce264.dir\\Debug/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: -1
+...
