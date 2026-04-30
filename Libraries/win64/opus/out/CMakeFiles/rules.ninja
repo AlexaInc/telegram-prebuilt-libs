@@ -98,7 +98,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = D:\a\telegram-prebuilt-libs\telegram-prebuilt-libs\ninja-build\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\ProgramData\chocolatey\bin\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -106,6 +106,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = D:\a\telegram-prebuilt-libs\telegram-prebuilt-libs\ninja-build\ninja.exe -t targets
+  command = C:\ProgramData\chocolatey\bin\ninja.exe -t targets
   description = All primary targets available:
 
