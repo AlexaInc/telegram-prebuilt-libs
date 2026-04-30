@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      1B82805B33F85FC39731AF0564A289CD58A5FFC3
+      E7980143D03A4C292CFE5ED48782AC2CA85C6540
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEG4KAWzP4X8OXMa8FZKKJzVil/8MFAmnzj2UCHQAACgkQZKKJ
-zVil/8OCfw/9FO0Xhv6OFTyWtE6DVexnCI0kOOCg7g5WsmT1XyL4zo/xoiP8Xy7E
-/cwZXA648vKkzFyOlb/3LkHLZWER8eaFdUqG+7SEXoirIKZnQC9KhW+o9hNb1Gl+
-u1fvIVhpvUJcIvuTcyI2u2v+WCwWl4PT8RunsHUEt+Q/EpxC0lB1X/EpDAMw5d9q
-/66qQTPk2nYU39zwilCiPvP29dbuBCfShxZxA+nw85i6C9hQkX1y5kdycrF9NbHc
-fBLmxufaUyJFgdY0AmkANsgGuqYVop2/xzHPaogBH253Ohxxd9swtF8KFHV/etAX
-LmNYckCVOW1ewLPEAL47jwmTlSLw53HEZiveMKJLdy7ma7yW6+5FFiB2uWRByYT6
-nmjU1aXfmOWXP4rA9AT62Kh2euEcr3FAXMWxzVM8HxKaZPjmWaHnqHkM+531PGEo
-IdT1UvJiRusa9oz/LDmaCL4nCatkPz/8wmARrFg8i1q6hRue8l6sYRuLhYOnfPhZ
-WL/QNQjQQTUawRadzEYm19pMN5uJ3pvQxql3SEAVcB3ppX/H0B125ZLBAKdsdTtR
-3DcRA4Eqh6zoV6E9KavvzOjW2pVIUuVA7ZUAkIprGf1JdxTQOIH1FJuuERcGTAEO
-IHaHAObZRWrPT9A020meBVYaZ3tC+AkCrBtbuOs5gj+jYeAxoB6jMKE=
-=7LCV
+iQI2BCABCAAgFiEE55gBQ9A6TCks/l7Uh4KsLKhcZUAFAmnzkNoCHQAACgkQh4Ks
+LKhcZUCEbw//R8sJeoO1Hw9rcD4nY0aBr/Ca6WA1RQ4MI91iCJIXm4d0NCdpcyvX
+afz26/0yrpbWHAia1t865Un3BjznK9XjTaRK1QjszKV8z3f9vzNyQhXsXYToi6dU
+tZ+ODMHE1jRf1ZiI45BL/YK8TNizG4Gpnfl2FutQfaoRmkNxX2RwLUhFlzTSFPvV
+ffhwdcxpzKcg/cOWZFL/ia+EBifpigkvrGv6dVRENDEEvXAiQQvKUdrLvp6AHmav
+E0AMy0WsyLfYPbeMpz7cBUkhQjOFQ/ZttMoboioZQd7NpHpve8RUOkMFyl2HEQjV
+8QuW5XxqmtCeBWY2J9z1ADkv5dH/SQmGsf8HOfT3CepJ7csfzghdKmwjWTBHGKe/
+WY5QHQ1xcOMbYk2NpP0cjwKh/A5umldSWSFL8SAWzS4tEa9z5IoTB2vxVuNkifIb
+96EY02nQ08VTbS4+J+0mMr+EKl5lhetzYORBJp48Wx4OjZmpMfIQPCBEyh26r67w
+l+3q5JzZGyDPVmweU4/SltY9TfUMBrl87rUdE8m9D9AA0k2Y6zVj6oTANh/2OZSN
+chTlnXili1Um8nU8+EO18Lo59c1pWTJva0hFF2P/qY/hb9JLYQKYJ7j3KDFjWa9d
+eGoeSGbqx3DhLetLb79jWkgFeohifJnbqCQGiQqiSQxp0iaXg3rx8l0=
+=Qo57
 -----END PGP PUBLIC KEY BLOCK-----
