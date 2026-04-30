@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9ytxtf"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9ytxtf"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-2ctu2v"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-2ctu2v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,11 +74,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9ytxtf'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-2ctu2v'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b136f
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_b136f.dir\\Debug\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_b136f.dir\\Debug\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b136f.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b136f.dir\\Debug\\CMakeCCompilerABI.c.obj  /out:Debug\\cmTC_b136f.exe /implib:Debug\\cmTC_b136f.lib /pdb:Debug\\cmTC_b136f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_0efd1
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0efd1.dir\\Debug\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_0efd1.dir\\Debug\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0efd1.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0efd1.dir\\Debug\\CMakeCCompilerABI.c.obj  /out:Debug\\cmTC_0efd1.exe /implib:Debug\\cmTC_0efd1.lib /pdb:Debug\\cmTC_0efd1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -129,10 +129,10 @@ events:
       stdout: |
         Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4dd50
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_4dd50.dir\\Debug\\vla.c.obj /FdCMakeFiles\\cmTC_4dd50.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c
-        FAILED: [code=2] CMakeFiles/cmTC_4dd50.dir/Debug/vla.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_4dd50.dir\\Debug\\vla.c.obj /FdCMakeFiles\\cmTC_4dd50.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d421c
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_d421c.dir\\Debug\\vla.c.obj /FdCMakeFiles\\cmTC_d421c.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c
+        FAILED: [code=2] CMakeFiles/cmTC_d421c.dir/Debug/vla.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_d421c.dir\\Debug\\vla.c.obj /FdCMakeFiles\\cmTC_d421c.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c
         D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c(3): error C2057: expected constant expression
         D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c(3): error C2466: cannot allocate an array of constant size 0
         D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\cmake\\vla.c(3): error C2133: 'a': unknown size
@@ -149,8 +149,8 @@ events:
     checks:
       - "Looking for alloca.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dky63m"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dky63m"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-me4sg3"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-me4sg3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -160,13 +160,13 @@ events:
       variable: "HAVE_ALLOCA_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dky63m'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-me4sg3'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_61df1
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_61df1.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_61df1.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-dky63m\\CheckIncludeFile.c
-        FAILED: [code=2] CMakeFiles/cmTC_61df1.dir/Debug/CheckIncludeFile.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_61df1.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_61df1.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-dky63m\\CheckIncludeFile.c
-        D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-dky63m\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f4f7e
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_f4f7e.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f4f7e.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-me4sg3\\CheckIncludeFile.c
+        FAILED: [code=2] CMakeFiles/cmTC_f4f7e.dir/Debug/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_f4f7e.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f4f7e.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-me4sg3\\CheckIncludeFile.c
+        D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-me4sg3\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 2
@@ -180,8 +180,8 @@ events:
     checks:
       - "Looking for alloca"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ahkevr"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ahkevr"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ql0oi8"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ql0oi8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -191,11 +191,11 @@ events:
       variable: "USE_ALLOCA_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ahkevr'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ql0oi8'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1d797
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_1d797.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_1d797.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-ahkevr\\CheckSymbolExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_1d797.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1d797.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_1d797.exe /implib:Debug\\cmTC_1d797.lib /pdb:Debug\\cmTC_1d797.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d4ecd
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_d4ecd.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d4ecd.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-ql0oi8\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_d4ecd.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d4ecd.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_d4ecd.exe /implib:Debug\\cmTC_d4ecd.lib /pdb:Debug\\cmTC_d4ecd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -207,8 +207,8 @@ events:
     checks:
       - "Looking for floor in m"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0jsqaw"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0jsqaw"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-b22kcs"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-b22kcs"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -218,14 +218,14 @@ events:
       variable: "HAVE_LIBM"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0jsqaw'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-b22kcs'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_af0c6
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=floor /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_af0c6.dir\\Debug\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_af0c6.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-0jsqaw\\CheckFunctionExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_af0c6.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_af0c6.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_af0c6.exe /implib:Debug\\cmTC_af0c6.lib /pdb:Debug\\cmTC_af0c6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: [code=4294967295] Debug/cmTC_af0c6.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_af0c6.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_af0c6.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_af0c6.exe /implib:Debug\\cmTC_af0c6.lib /pdb:Debug\\cmTC_af0c6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_af0c6.dir\\Debug\\CheckFunctionExists.c.obj /out:Debug\\cmTC_af0c6.exe /implib:Debug\\cmTC_af0c6.lib /pdb:Debug\\cmTC_af0c6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_af0c6.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_af0c6.dir\\Debug/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_77a89
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=floor /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_77a89.dir\\Debug\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_77a89.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-b22kcs\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_77a89.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77a89.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_77a89.exe /implib:Debug\\cmTC_77a89.lib /pdb:Debug\\cmTC_77a89.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: [code=4294967295] Debug/cmTC_77a89.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_77a89.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77a89.dir\\Debug\\CheckFunctionExists.c.obj  /out:Debug\\cmTC_77a89.exe /implib:Debug\\cmTC_77a89.lib /pdb:Debug\\cmTC_77a89.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77a89.dir\\Debug\\CheckFunctionExists.c.obj /out:Debug\\cmTC_77a89.exe /implib:Debug\\cmTC_77a89.lib /pdb:Debug\\cmTC_77a89.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_77a89.dir\\Debug/intermediate.manifest CMakeFiles\\cmTC_77a89.dir\\Debug/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'm.lib'
         ninja: build stopped: subcommand failed.
         
@@ -240,8 +240,8 @@ events:
     checks:
       - "Looking for lrintf"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0gbzca"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0gbzca"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-gr63mg"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-gr63mg"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -251,11 +251,11 @@ events:
       variable: "HAVE_LRINTF"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0gbzca'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-gr63mg'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_203f5
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_203f5.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_203f5.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-0gbzca\\CheckSymbolExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_203f5.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_203f5.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_203f5.exe /implib:Debug\\cmTC_203f5.lib /pdb:Debug\\cmTC_203f5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_40d78
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_40d78.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_40d78.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-gr63mg\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_40d78.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_40d78.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_40d78.exe /implib:Debug\\cmTC_40d78.lib /pdb:Debug\\cmTC_40d78.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -268,8 +268,8 @@ events:
     checks:
       - "Looking for lrint"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-g0s9bx"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-g0s9bx"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lpc7e0"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lpc7e0"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -279,11 +279,11 @@ events:
       variable: "HAVE_LRINT"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-g0s9bx'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lpc7e0'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c1dbe
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_c1dbe.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_c1dbe.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-g0s9bx\\CheckSymbolExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c1dbe.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1dbe.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_c1dbe.exe /implib:Debug\\cmTC_c1dbe.lib /pdb:Debug\\cmTC_c1dbe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6bac4
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_6bac4.dir\\Debug\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_6bac4.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-lpc7e0\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_6bac4.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6bac4.dir\\Debug\\CheckSymbolExists.c.obj  /out:Debug\\cmTC_6bac4.exe /implib:Debug\\cmTC_6bac4.lib /pdb:Debug\\cmTC_6bac4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -296,8 +296,8 @@ events:
     checks:
       - "Looking for intrin.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d7pphx"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d7pphx"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-jpy9x6"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-jpy9x6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -307,11 +307,11 @@ events:
       variable: "HAVE_INTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d7pphx'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-jpy9x6'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1f05b
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_1f05b.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1f05b.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-d7pphx\\CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_1f05b.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1f05b.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_1f05b.exe /implib:Debug\\cmTC_1f05b.lib /pdb:Debug\\cmTC_1f05b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_04110
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_04110.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_04110.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-jpy9x6\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_04110.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_04110.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_04110.exe /implib:Debug\\cmTC_04110.lib /pdb:Debug\\cmTC_04110.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -324,8 +324,8 @@ events:
     checks:
       - "Looking for xmmintrin.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9mqce7"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9mqce7"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0lnsk5"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0lnsk5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -335,11 +335,11 @@ events:
       variable: "HAVE_XMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-9mqce7'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-0lnsk5'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_8af74
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_8af74.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8af74.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-9mqce7\\CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_8af74.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8af74.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_8af74.exe /implib:Debug\\cmTC_8af74.lib /pdb:Debug\\cmTC_8af74.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_89a8f
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_89a8f.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_89a8f.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-0lnsk5\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_89a8f.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_89a8f.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_89a8f.exe /implib:Debug\\cmTC_89a8f.lib /pdb:Debug\\cmTC_89a8f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -352,8 +352,8 @@ events:
     checks:
       - "Looking for emmintrin.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lvtea8"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lvtea8"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-yy77wa"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-yy77wa"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -363,11 +363,11 @@ events:
       variable: "HAVE_EMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-lvtea8'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-yy77wa'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a8418
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_a8418.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a8418.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-lvtea8\\CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_a8418.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a8418.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_a8418.exe /implib:Debug\\cmTC_a8418.lib /pdb:Debug\\cmTC_a8418.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_858df
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_858df.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_858df.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-yy77wa\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_858df.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_858df.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_858df.exe /implib:Debug\\cmTC_858df.lib /pdb:Debug\\cmTC_858df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -380,8 +380,8 @@ events:
     checks:
       - "Looking for smmintrin.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-fxqmt5"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-fxqmt5"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-oe9e50"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-oe9e50"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -391,11 +391,11 @@ events:
       variable: "HAVE_SMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-fxqmt5'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-oe9e50'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1a102
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_1a102.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1a102.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-fxqmt5\\CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_1a102.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1a102.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_1a102.exe /implib:Debug\\cmTC_1a102.lib /pdb:Debug\\cmTC_1a102.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_63ef0
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_63ef0.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_63ef0.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-oe9e50\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_63ef0.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_63ef0.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_63ef0.exe /implib:Debug\\cmTC_63ef0.lib /pdb:Debug\\cmTC_63ef0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -408,8 +408,8 @@ events:
     checks:
       - "Looking for immintrin.h"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-hs58nr"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-hs58nr"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dbatrx"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dbatrx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -419,11 +419,11 @@ events:
       variable: "HAVE_IMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-hs58nr'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-dbatrx'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_22cbe
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_22cbe.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_22cbe.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-hs58nr\\CheckIncludeFile.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_22cbe.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_22cbe.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_22cbe.exe /implib:Debug\\cmTC_22cbe.lib /pdb:Debug\\cmTC_22cbe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_cb0a9
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_cb0a9.dir\\Debug\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_cb0a9.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-dbatrx\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_cb0a9.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cb0a9.dir\\Debug\\CheckIncludeFile.c.obj  /out:Debug\\cmTC_cb0a9.exe /implib:Debug\\cmTC_cb0a9.lib /pdb:Debug\\cmTC_cb0a9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -439,8 +439,8 @@ events:
     checks:
       - "Performing Test AVX2_SUPPORTED"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ylpx0h"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ylpx0h"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-js1n03"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-js1n03"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -450,11 +450,11 @@ events:
       variable: "AVX2_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ylpx0h'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-js1n03'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_8eec8
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DAVX2_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /arch:AVX2 /showIncludes /FoCMakeFiles\\cmTC_8eec8.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_8eec8.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-ylpx0h\\src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_8eec8.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8eec8.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_8eec8.exe /implib:Debug\\cmTC_8eec8.lib /pdb:Debug\\cmTC_8eec8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_58ddc
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DAVX2_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /arch:AVX2 /showIncludes /FoCMakeFiles\\cmTC_58ddc.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_58ddc.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-js1n03\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_58ddc.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_58ddc.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_58ddc.exe /implib:Debug\\cmTC_58ddc.lib /pdb:Debug\\cmTC_58ddc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -469,8 +469,8 @@ events:
     checks:
       - "Performing Test FAST_MATH_SUPPORTED"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ur0yn5"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ur0yn5"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-8n26b6"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-8n26b6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -480,11 +480,11 @@ events:
       variable: "FAST_MATH_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-ur0yn5'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-8n26b6'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9d393
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DFAST_MATH_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /fp:fast /showIncludes /FoCMakeFiles\\cmTC_9d393.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_9d393.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-ur0yn5\\src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9d393.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9d393.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_9d393.exe /implib:Debug\\cmTC_9d393.lib /pdb:Debug\\cmTC_9d393.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_35d07
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DFAST_MATH_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /fp:fast /showIncludes /FoCMakeFiles\\cmTC_35d07.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_35d07.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-8n26b6\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_35d07.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_35d07.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_35d07.exe /implib:Debug\\cmTC_35d07.lib /pdb:Debug\\cmTC_35d07.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -499,8 +499,8 @@ events:
     checks:
       - "Performing Test STACK_PROTECTOR_SUPPORTED"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-leaoea"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-leaoea"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d29ri9"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d29ri9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -510,11 +510,11 @@ events:
       variable: "STACK_PROTECTOR_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-leaoea'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-d29ri9'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_35f1b
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DSTACK_PROTECTOR_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /GS /showIncludes /FoCMakeFiles\\cmTC_35f1b.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_35f1b.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-leaoea\\src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_35f1b.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_35f1b.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_35f1b.exe /implib:Debug\\cmTC_35f1b.lib /pdb:Debug\\cmTC_35f1b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_0c872
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DSTACK_PROTECTOR_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /GS /showIncludes /FoCMakeFiles\\cmTC_0c872.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_0c872.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-d29ri9\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0c872.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c872.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_0c872.exe /implib:Debug\\cmTC_0c872.lib /pdb:Debug\\cmTC_0c872.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -529,8 +529,8 @@ events:
     checks:
       - "Performing Test STACK_PROTECTOR_DISABLED_SUPPORTED"
     directories:
-      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-6skmah"
-      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-6skmah"
+      source: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-mn7rlk"
+      binary: "D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-mn7rlk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -540,11 +540,11 @@ events:
       variable: "STACK_PROTECTOR_DISABLED_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-6skmah'
+        Change Dir: 'D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/opus/out/CMakeFiles/CMakeScratch/TryCompile-mn7rlk'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f69ea
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DSTACK_PROTECTOR_DISABLED_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /GS- /showIncludes /FoCMakeFiles\\cmTC_f69ea.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_f69ea.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-6skmah\\src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_f69ea.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f69ea.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_f69ea.exe /implib:Debug\\cmTC_f69ea.lib /pdb:Debug\\cmTC_f69ea.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_bec68
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DSTACK_PROTECTOR_DISABLED_SUPPORTED -DCMAKE_INTDIR=\\"Debug\\"  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd   /GS- /showIncludes /FoCMakeFiles\\cmTC_bec68.dir\\Debug\\src.c.obj /FdCMakeFiles\\cmTC_bec68.dir\\Debug\\ /FS -c D:\\a\\telegram-prebuilt-libs\\telegram-prebuilt-libs\\Libraries\\win64\\opus\\out\\CMakeFiles\\CMakeScratch\\TryCompile-mn7rlk\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_bec68.dir\\Debug --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\ENTERP~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bec68.dir\\Debug\\src.c.obj  /out:Debug\\cmTC_bec68.exe /implib:Debug\\cmTC_bec68.lib /pdb:Debug\\cmTC_bec68.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...
