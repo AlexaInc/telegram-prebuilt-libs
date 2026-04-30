@@ -74,8 +74,8 @@ jobs:
       # - name: (L) rnnoise
       #   run: python Telegram/build/prepare/prepare.py rnnoise qt6
 
-      # - name: (L) gas-preprocessor
-      #   run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
+      - name: (L) gas-preprocessor
+        run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
 
       # - name: (L) dav1d
       #   run: python Telegram/build/prepare/prepare.py dav1d qt6
