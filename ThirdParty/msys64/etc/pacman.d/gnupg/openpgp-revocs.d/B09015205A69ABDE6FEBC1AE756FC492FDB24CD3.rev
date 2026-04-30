@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      5BA1BBDBE8CE7F1C85BEE5B3066EDE4DE47E393D
+      B09015205A69ABDE6FEBC1AE756FC492FDB24CD3
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEW6G72+jOfxyFvuWzBm7eTeR+OT0FAmnzFPsCHQAACgkQBm7e
-TeR+OT06ghAAlZSBdFTD6UZJ6/v0Zs3eNgXma0P25JoBD/lWR/2aY4f+pMLTA5fH
-2EuNZ+SddILfzmti8ZRkC+rGeQ/c5bKN6XHhjDYeww57yBp6CKXeDZ2o02q7jHlE
-8CXriVuT1eqvSDh6ksc2rHUG3sjG+SNOxC8IEIsusgUztowKg5Qpwp3u1EAlZtnp
-2bAJp7HHaY16deCMGx/fd80GzDptgedOMnPy0LGOZglMYAUptLduu0cAguvGyBW+
-vLDydDnKNKSrMGE2YTbxPhI3DzIcQk0VEtOxjgRPk/cyakwrH5j9VJjoAMXbsbpt
-6vyQOcWsEngqSlyE0LB91uqNGmTQAfZZKFdFVptx/xWoOmKA2lHoQaBowlJjAekv
-ziRKl/yAamDK/oDjN/seqfPjW8M5ZIYa11xRtDo/rPRC2HXOIhof1u3kZHu5ic+t
-KacbucD4HB0eyNriZcq1JrnQhaEl8uhJnOmNPmpLotXk8Kcnp0HfDu5LokWzKM1H
-+bt6J8hUrqBadYLdVtXt0EZf7H7WbpSjt3V451cXXpjkrLaxSzsu2B1iWTdr89B3
-HfX25LyiSj0fdXzZxTotD4yU4+U3tc5+fzI/jZzdWkuSjy4j4BQ8ncKqIC2SZDim
-n7OPLoZCJ77iAk7Od4zCS05YMkGEamBXdQ7zojumZGz5GkYjll2K5HA=
-=AWXs
+iQI2BCABCAAgFiEEsJAVIFppq95v68GudW/Ekv2yTNMFAmnzF5kCHQAACgkQdW/E
+kv2yTNM+hBAAmUs5LZYeVfWNT8ITOjTFAGiDVieecxVrjTGRCVrYZNiXeZrM7Wxr
+VafKeYHWYsepzAmIMJ0Gdlf+fXY8hN4e7w7G+U0gz3L2D1AHyWM09X7tnLfqCADW
+qFp8BmMErB6NU/YRR2Xuvg2Wbd9MhrlQ3ZgwpbNgMu1z5T2HyWy7a8NOSRcd5MmM
+2kPgVo1/uYq/HDoEZmQCwFWpJKZJjDywOKUxokJXwdKLv+vO77QICZHHyR1hAguT
+pPCRJV/TIv027d/eP6GtOPxkX4tasS6QpswyGQ28A5ihhNds9/J3FsSZR6V8LX3E
+jeHam677SE5804lR5oelEQokYWZTNkFlot7CagIyZSUmJf4x53p0acqgoyBEIPnk
+jtpA3py8eatdWrznELt6tr9OTbDfr2ltRrWuk11uc4xYgGkcE12JgTzBHVKZOz8w
+BEWOCdDBHGwNdj1Kbnldh0Q5yrit01I8TcyQ0JGaxxSx+5IOnAGDBSxvtDQgkxKh
+7i0w9XSSTk+Iw5cAwbSdP7mWLhJ7x5IOusJRR/9MFzbxqcRhOnlWbS7QlDPCjoDS
+or1wo9WN/6v2nyk0kEp/gL7qln4wNrCo6iANtET3sBza0w4HOeKDIdV54l3JLFAM
+zZUi4xjnKWxDKEKqKh/DklorGkG5179CrOclWfsoCMCTh4b97nVZzBA=
+=Nlsd
 -----END PGP PUBLIC KEY BLOCK-----
