@@ -475,19 +475,19 @@ def runStages():
             
             # Smart cleanup of source/build folder while preserving artifacts
             srcDir = os.path.join(stage['directory'], stage['name'])
-            if os.path.isdir(srcDir) and stage['name'] not in ['local', 'cache_keys', 'common', 'patches', 'msys64', 'python', 'NuGet', 'jom', 'gyp'] and stage['location'] != 'ThirdParty':
-                print_flushed(f"Cleaning up {stage['name']} source to save space...")
-                # Keep only what's typically needed (out, lib, include, bin, local, src, Debug, Release, C)
-                keep_folders = ['out', 'out.dbg', 'lib', 'include', 'bin', 'local', 'dist', 'src', 'Debug', 'Release', 'C']
-                for item in os.listdir(srcDir):
-                    item_path = os.path.join(srcDir, item)
-                    if os.path.isdir(item_path):
-                        if item not in keep_folders:
-                            shutil.rmtree(item_path, ignore_errors=True)
-                    else:
-                        # Keep important build results in the root
-                        if not any(item.endswith(ext) for ext in ['.h', '.lib', '.a', '.pdb', '.pc']):
-                            os.remove(item_path)
+            # if os.path.isdir(srcDir) and stage['name'] not in ['local', 'cache_keys', 'common', 'patches', 'msys64', 'python', 'NuGet', 'jom', 'gyp'] and stage['location'] != 'ThirdParty':
+            #     print_flushed(f"Cleaning up {stage['name']} source to save space...")
+            #     # Keep only what's typically needed (out, lib, include, bin, local, src, Debug, Release, C)
+            #     keep_folders = ['out', 'out.dbg', 'lib', 'include', 'bin', 'local', 'dist', 'src', 'Debug', 'Release', 'C']
+            #     for item in os.listdir(srcDir):
+            #         item_path = os.path.join(srcDir, item)
+            #         if os.path.isdir(item_path):
+            #             if item not in keep_folders:
+            #                 shutil.rmtree(item_path, ignore_errors=True)
+            #         else:
+            #             # Keep important build results in the root
+            #             if not any(item.endswith(ext) for ext in ['.h', '.lib', '.a', '.pdb', '.pc']):
+            #                 os.remove(item_path)
 
             old_dir = os.getcwd()
             os.chdir(rootDir)
