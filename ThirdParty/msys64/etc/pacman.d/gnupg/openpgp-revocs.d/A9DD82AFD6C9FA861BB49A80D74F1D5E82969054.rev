@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      8FE0E44B5D855D964AB61A0B8C04E1C871342260
+      A9DD82AFD6C9FA861BB49A80D74F1D5E82969054
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEj+DkS12FXZZKthoLjAThyHE0ImAFAmnzBqMCHQAACgkQjATh
-yHE0ImA5oBAAv9JCC7lDlJYT2TO3vTCoYa/nupLhha1OlJ5kK+XfI9qpzh2P04S/
-e58MfJrxPNI4sfZhVhNkkDtwKH9v97FLzsN6sU0AyYgXgJ8R4Hvqw0O8U2d4zy2F
-g9gtPksHMSewDMx/bNYKSpr66PosWSU2o56wwaQ1TXjQX0fipsteb+p/tNM54f9v
-Qaoin8dxRI8pUQFLzvq0Mkm1xAUqdz59SgIGC5MWhmSCe72LkHFu/MnJ39WwnBl+
-bJ15O3pKojmaoUFCKFA+N0qL7+FB19iASal2LaYIZya+uNj+D0BM10sbSeW2ENrj
-nPK9o7sz36SecYLO8uvtUomxzwL7+XFa5Gvbv1d6bZDi2ilED5+G/91h8kIR9C7p
-4ZSQUzSoRxa+z/SIEI2JqPS+3cJIdeHA8RlrSD7y/luTxWtnVh0Pdd83nMC4vGjl
-jxsbzhAsOOa70w/NVAH3W/48vj/Pdk8aZFDTLWtrZbUqNouUNEUVM9Qzh0dMNu07
-vX4UC3JJ9X4d+tAr9J2jhUlMCa0jsPtsKn0U56NJzDax2JRUL1kCtyr78xJDGMmP
-2iHqvyuHOUGbrg0KNO1lzIekaRFR0T3IXhUWYxKljdHgHS634tY6E/banCkNp4K6
-JvMLLLAhAYk8Saxy3DFrHlB8RJ69zuKq/9DfbHBJOIoL6DsXGfrxbrY=
-=dauz
+iQI2BCABCAAgFiEEqd2Cr9bJ+oYbtJqA108dXoKWkFQFAmnzDRwCHQAACgkQ108d
+XoKWkFS1MRAAkNJZ3D57n+YPqBE/qEk4Mr7T960y2QeoRV+Ty2qxCDoJAiHpkiGJ
+WCqmhajwy9sw3FV1zCgZm6/Yig6tuo0P6jBHOOTV02pc32O8P23likl0oVdvgl7K
+jIRcYwULJjuFDUNioQdemJ0FP7hFkd4zcxTVUSc7XRq8IrEwFHfwC7muGUhUbrzg
+vCHLaJymOIAb0nWY3ZIdLoOWQdry1aVj5KjtOUcGPTweECb6qGBDLw/oAB+1b89Q
+tH0lDVdJB7Z+oc3spxiZGToqz9c8liyXRNbWZ2iop2hH9PFp8BR7rfDVuC0SJ1G9
+cNaeC5jo1abK0U54oruLpONvm+aaTNLn5tePyUGOFJYvwJ9JGHOmebtABJk4PgEm
+ye1Nf1oroUKGBjHYFq6dU4aXdffbTa3qUHJIrHxPG5UaB6bik6dH0lVisWLQiIut
+pFowVR9DDleyu3gUBE8Jdfv908TFZ0PTaNA4rVEk6EwfIYniswIk/fUHzOO8bXWG
+SupSeeptpRPOdrTwL6sk3DePpFD+TLzx6pkv5Y08gzLhPoflfBAC6Ppc4uYoym1z
+ekvUcyJMGWSz33PNKUcLmK89nVZDDaTXhPbwXXuutv/Y48gniG7zdWCwAX/XamGW
+JKV2/t/B+Eb5/WOE8RY+pf8chv/zqI/33gds9JO/ytItjDi1iWDGbcs=
+=SPFs
 -----END PGP PUBLIC KEY BLOCK-----
