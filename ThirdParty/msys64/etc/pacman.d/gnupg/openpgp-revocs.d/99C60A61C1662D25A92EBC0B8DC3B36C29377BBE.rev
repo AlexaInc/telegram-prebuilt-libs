@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      A4A18C82EC41C49FA4E49307DE1C82EE6D1A6DEA
+      99C60A61C1662D25A92EBC0B8DC3B36C29377BBE
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEpKGMguxBxJ+k5JMH3hyC7m0abeoFAmnzSsACHQAACgkQ3hyC
-7m0abeoZ3A//Q4AarlRWM+GR7PtO8OsUHA75fKZB0K2d9N1FKKcJT5uSazWAF1vK
-Gmuw/LjBc7NQFM/7LCFHx5aodoBSR0NTdRs8LX7XcLPVnazhILRio5f7ck9zf+z8
-lQ044ENQtnCzmg7/hVZl7/u2st3k9jxS0pZGb6yazWPNvaUlEmnZRNJ0BD64yFBz
-SWgMwxncnY0Z/TVhmpl/sDZgbtFn44iZ9ib/6nJyhPd5fqOQG1q9KhEBQOmNCy4z
-/VQDzTADK0GZIHs03hK60zZ9exOG1aJkAPIsqoJgG0H/F9n1DK5ppNLN7HOQLCYx
-FHmDlzeF0hPZQUJqARcLWLvGldzMe4dYcMqnWghXrprSvJT6rN8tkC6h2M1wAkSX
-uV+aaUU6twqy4z1VIv/P+0TbWrOAh282VMdaZz1+7lRrqELXb0Z6U4330VJdX6l7
-0ELEpnNTxVCQTBGMoH2tUpkfCGHQS9a9OdtI+Wz+TQY2ekiBWdeIQURf91/Y+82Y
-aWs2L1SfiP91GY021kNVBqrrYsfU7JSNTzlNsPSUtpieQ3pHIqrJywWf3BC9dxkM
-spwBld6PajFxTzC8OILxnG9gr9BMvp7A9xtzdCbK53bK/3AKl8wsad0pWRLpPteO
-zkVXgqyb09PKenz+UZcCOxQ2eNevUqgp940RAG9xrophuG+gpJbXCMk=
-=Uzjn
+iQI2BCABCAAgFiEEmcYKYcFmLSWpLrwLjcOzbCk3e74FAmnzTaYCHQAACgkQjcOz
+bCk3e76m9w//WVo2SL17l7KtDjDrgDMpENSaK71PZBiKX9/nu1yZut0ByoM1CK2f
+uIHOPnYoYFCZHEomFqqtEp/FQr32x91Su9V9c5jLXHOKYpJGaPFylckba0NpcdDu
+DOYE7RGLWt8M/TTf1jgaNh9kQdzOx5f5ufjzQb2ppwZkyw1XUx1v8symv3+htmix
+jG5eb3l6cLY6ohZCZMhtpl3t15fre2fbGvn8Q301/EEwcGLEH57J0PcwvXA++rd1
+nOU/EczyhB6rf+Mh72S8hiHjt7l2IoPfUuFbpzh11tMWNe8YMwt6zfvHu4GqwuRA
+a83zWpiZJYWLT+1B5w9J7ULS3GSlqyMYADbmbrEu7IEpfdsXIE3qR0UMMpAOEV8M
+vUp+FLWtQTfZb0vnQNEpOVmBxJzpvTZcrzgwm15gWDqO/ywao82jp43Yt73hzesG
+0InR1pIUSoUluLiJCgY3CSA/AxXHzGSpTPgdMgGEFdKgAiftNe/31HQPW5FmIuHj
+t+Vx75UycuXauRNjIcuF92LFhpeRoB1CiLb8TU2dtoHviDoTiHS824cBZBCfX1x1
+nCBK3v8d7peZW5fcp72l2miYdVlpiN8Ozes3ehcYdFXKKyDpJyogu3DrNOI4eL7d
+3rWlzn15YbZ6NUm5EXByNMACMvr2vII7uT8WPgvRBT/ryhpFB5RM2Zk=
+=J6/C
 -----END PGP PUBLIC KEY BLOCK-----
