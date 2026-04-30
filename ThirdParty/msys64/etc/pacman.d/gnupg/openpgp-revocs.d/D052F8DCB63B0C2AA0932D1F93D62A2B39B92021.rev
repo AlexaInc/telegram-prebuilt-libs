@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      E7980143D03A4C292CFE5ED48782AC2CA85C6540
+      D052F8DCB63B0C2AA0932D1F93D62A2B39B92021
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEE55gBQ9A6TCks/l7Uh4KsLKhcZUAFAmnzkNoCHQAACgkQh4Ks
-LKhcZUCEbw//R8sJeoO1Hw9rcD4nY0aBr/Ca6WA1RQ4MI91iCJIXm4d0NCdpcyvX
-afz26/0yrpbWHAia1t865Un3BjznK9XjTaRK1QjszKV8z3f9vzNyQhXsXYToi6dU
-tZ+ODMHE1jRf1ZiI45BL/YK8TNizG4Gpnfl2FutQfaoRmkNxX2RwLUhFlzTSFPvV
-ffhwdcxpzKcg/cOWZFL/ia+EBifpigkvrGv6dVRENDEEvXAiQQvKUdrLvp6AHmav
-E0AMy0WsyLfYPbeMpz7cBUkhQjOFQ/ZttMoboioZQd7NpHpve8RUOkMFyl2HEQjV
-8QuW5XxqmtCeBWY2J9z1ADkv5dH/SQmGsf8HOfT3CepJ7csfzghdKmwjWTBHGKe/
-WY5QHQ1xcOMbYk2NpP0cjwKh/A5umldSWSFL8SAWzS4tEa9z5IoTB2vxVuNkifIb
-96EY02nQ08VTbS4+J+0mMr+EKl5lhetzYORBJp48Wx4OjZmpMfIQPCBEyh26r67w
-l+3q5JzZGyDPVmweU4/SltY9TfUMBrl87rUdE8m9D9AA0k2Y6zVj6oTANh/2OZSN
-chTlnXili1Um8nU8+EO18Lo59c1pWTJva0hFF2P/qY/hb9JLYQKYJ7j3KDFjWa9d
-eGoeSGbqx3DhLetLb79jWkgFeohifJnbqCQGiQqiSQxp0iaXg3rx8l0=
-=Qo57
+iQI2BCABCAAgFiEE0FL43LY7DCqgky0fk9YqKzm5ICEFAmnzlSYCHQAACgkQk9Yq
+Kzm5ICF6FRAAn90clSbn4q+R08/Jr+GvQo7HFkyydiYUusa1CXNa2+JYMF3wpLvR
+eG47wlLPyCMm8cMAkLOiEZVqroHIyHWPTAPpx3ZJtymgCZ/P7qFVK8SLP+TcDTDr
+9jld7zMNodlVza25bdiw+SKqGMbansQD7tNJFn9ek8nu3N7mrmFJhnxQS8go77Gf
+X1tLwj+3m0n/Z6DZ1yIc5r9A3R9+bkuzSZiduooNeNrwDWBQEWLiVoIsnnsC2j8x
+N+QnnYWM4+b0/FaFBAd3xTXjjtJntz+RmHGfebkCAA2JMIO2eAY8gPIjuStYEp9E
+ww1FYr0WjmerXSUM7rPYCXHpgZJ3Dc8Orox0XLY9Z/RG1oN/lMa5gWmlwQEXJLbA
+Jz4wx8ktula+5rlcuxmywsCtDVaxA1zBjZB7SDdwM0w+tVEgFlmPJe0uRhio6713
+RSDQ0zxiCK2IcaJHZ1vdEyLTZDrC2OEDiQMx0knhrwrNlAVi9N0NOPotYbHARvgo
+txSB8go9hrNDLvGqlvpdcuVIFJTNZ6iatEo5juZHnLkIj9zpYYcpZR5bxQq6jR86
+TklqQUEru22phGGyTcTU/rEnpmWmXSDUiyEWQBBQx9yFuSChqGOGDvGE1sww6YIU
+ov2qttb71w2KT89/dv8Z40J8Ccm6miKJUfMxcnacd9fgtma5kdrf/h4=
+=Gfxl
 -----END PGP PUBLIC KEY BLOCK-----
