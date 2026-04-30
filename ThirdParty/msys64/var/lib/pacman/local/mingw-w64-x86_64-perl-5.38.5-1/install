@@ -1,0 +1,32 @@
+# vim: set ts=4 sw=4 et ai syn=sh:
+
+declare -gr inst_script="$(realpath "${BASH_SOURCE[0]}")"
+
+post_install() {
+    local basedir="$(pwd -W)"
+    local basedir="${basedir%/}"
+    local basedir="${basedir//\//\\\\}"
+    local basedir_double="${basedir//\\\\/\\\\\\\\}"
+    local basedir_html="${basedir//\\\\/\\\/}"
+
+    cd "/mingw64"
+    printf "%s Replacing perl relocation patterns\\n" "->"
+    sed '1,/^FILELIST:$/d' "${inst_script}" | base64 -d | gzip -d \
+    | xargs -0 -r sed -i \
+        -e "s/@PERL_RELOCATE_DOUBLE@/${basedir_double}/g" \
+        -e "s/@PERL_RELOCATE@/${basedir}/g" \
+        -e "s/@PERL_RELOCATE_HTML@/\\/\\/${basedir_html}/g"
+}
+
+post_upgrade() {
+    post_install
+}
+
+return 0
+
+FILELIST:
+H4sICBNMWWkCA3RtcC51TE1HSVZiSjBBAHWRUYrDMAxEe6IUAnuCZb8LvUBwbCVW15aF5YTsnr5J
+vkql/hj7zSDGo+46Il19qTAw1HTeEkq7dO8CO1IQyPebWHheQLQQe44GNEYgScsliLY/pNDArHjC
+kaD5aVbKcYyLzUPxJseVTd6io18dl9EXWjVOPWdNS+hjy8kUslHzwRtseilcywqaNldNGHCaTGGu
+oL8r0cmi0wsnhzqjtAou/6Oes8kyGvvarQGaw3S0uS/vrPfrxfBdaMK5Owv8rA8R3PrXcfrkut1/
+9uc5Kl6e6MGzAO8CAAA=

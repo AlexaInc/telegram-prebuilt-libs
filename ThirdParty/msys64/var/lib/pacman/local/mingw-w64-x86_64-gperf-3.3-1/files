@@ -1,0 +1,17 @@
+%FILES%
+mingw64/
+mingw64/bin/
+mingw64/bin/gperf.exe
+mingw64/share/
+mingw64/share/doc/
+mingw64/share/doc/gperf/
+mingw64/share/doc/gperf/gperf.html
+mingw64/share/info/
+mingw64/share/info/gperf.info.gz
+mingw64/share/licenses/
+mingw64/share/licenses/gperf/
+mingw64/share/licenses/gperf/LICENSE
+mingw64/share/man/
+mingw64/share/man/man1/
+mingw64/share/man/man1/gperf.1.gz
+
