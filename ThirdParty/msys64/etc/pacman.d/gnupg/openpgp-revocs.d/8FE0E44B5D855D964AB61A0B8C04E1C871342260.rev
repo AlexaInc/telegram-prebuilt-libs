@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      DC9740C2E6B5DE92894386EB84D7D8B11EF07354
+      8FE0E44B5D855D964AB61A0B8C04E1C871342260
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEE3JdAwua13pKJQ4brhNfYsR7wc1QFAmnzAycCHQAACgkQhNfY
-sR7wc1Q6PhAAsJqCzyR9CuXLdSxZ9ZIa5b/EfSyBoB0U/sQwCTgsSMi2KV9/w8Cn
-IxTJtKcyi5KSejRO8D1yD2/uXBUlhzY2nQ6cJKM2mX4iEBjZnx6gp8CgBDrF9Pxy
-8+skTYTRpGmoQvyq8VNDjxlYihSpIx+CiE/f1gMs5uhOiXVs8tNLmQPrOMWnpPVG
-aO82Pnvc6fFmwXwFAEusWM9bJj1Z12Z7LzSxEYmWoL0/gKCrjd9HKJUMQXV7PMvx
-sv0tTsq6ZuwUW3nd+/W0opg5OlTaLgkKW3Ac5fXfXi6ad5lfh7Ftu5BZmAb1KFAi
-CxTICjD8YY8Aa5zqXlUnCuXFjofyIeeSP8nita3CLBXdayw4mX6cKGeSVWn46Pkg
-Bk2rPSiUY8Msz/iGCi2d9Mro+Z+ycMlMHE7HCXY9ePRsFTlWPDJ7KpbhDRdnVqyL
-TtAMM3fvRCUViVFczcWeDct6bcTA6AeMY0nzSdJbOtjU0OiZwmdO1xAPyjgpggnF
-d+U4AM4S1K2lxgizdV7biJnOsUbtUDgF+bJYm4bCexa21KDdUbc+QsA940VIkltB
-ddd0aJaRoUO2FtSgHzpn8X2lmt8PyvQF8eYcBFVLOPjS3i5JSRiIjgyqVVFyec/O
-jLxBG0msWvsyPuP0YFLzdSFDMXvOyJtdnEHvBtk/GRoIg76mZ84dGx0=
-=YezR
+iQI2BCABCAAgFiEEj+DkS12FXZZKthoLjAThyHE0ImAFAmnzBqMCHQAACgkQjATh
+yHE0ImA5oBAAv9JCC7lDlJYT2TO3vTCoYa/nupLhha1OlJ5kK+XfI9qpzh2P04S/
+e58MfJrxPNI4sfZhVhNkkDtwKH9v97FLzsN6sU0AyYgXgJ8R4Hvqw0O8U2d4zy2F
+g9gtPksHMSewDMx/bNYKSpr66PosWSU2o56wwaQ1TXjQX0fipsteb+p/tNM54f9v
+Qaoin8dxRI8pUQFLzvq0Mkm1xAUqdz59SgIGC5MWhmSCe72LkHFu/MnJ39WwnBl+
+bJ15O3pKojmaoUFCKFA+N0qL7+FB19iASal2LaYIZya+uNj+D0BM10sbSeW2ENrj
+nPK9o7sz36SecYLO8uvtUomxzwL7+XFa5Gvbv1d6bZDi2ilED5+G/91h8kIR9C7p
+4ZSQUzSoRxa+z/SIEI2JqPS+3cJIdeHA8RlrSD7y/luTxWtnVh0Pdd83nMC4vGjl
+jxsbzhAsOOa70w/NVAH3W/48vj/Pdk8aZFDTLWtrZbUqNouUNEUVM9Qzh0dMNu07
+vX4UC3JJ9X4d+tAr9J2jhUlMCa0jsPtsKn0U56NJzDax2JRUL1kCtyr78xJDGMmP
+2iHqvyuHOUGbrg0KNO1lzIekaRFR0T3IXhUWYxKljdHgHS634tY6E/banCkNp4K6
+JvMLLLAhAYk8Saxy3DFrHlB8RJ69zuKq/9DfbHBJOIoL6DsXGfrxbrY=
+=dauz
 -----END PGP PUBLIC KEY BLOCK-----
