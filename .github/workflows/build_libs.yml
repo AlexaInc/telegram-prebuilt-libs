@@ -80,26 +80,26 @@ jobs:
       # - name: (L) dav1d
       #   run: python Telegram/build/prepare/prepare.py dav1d qt6
 
-      - name: (L) openh264
-        run: python Telegram/build/prepare/prepare.py openh264 qt6
+      # - name: (L) openh264
+      #   run: python Telegram/build/prepare/prepare.py openh264 qt6
 
       # - name: (L) libavif
       #   run: python Telegram/build/prepare/prepare.py libavif qt6
 
-      - name: (L) libde265
-        run: python Telegram/build/prepare/prepare.py libde265 qt6
+      # - name: (L) libde265
+      #   run: python Telegram/build/prepare/prepare.py libde265 qt6
 
       # - name: (L) libwebp
       #   run: python Telegram/build/prepare/prepare.py libwebp qt6
 
-      - name: (L) libheif
-        run: python Telegram/build/prepare/prepare.py libheif qt6
+      # - name: (L) libheif
+      #   run: python Telegram/build/prepare/prepare.py libheif qt6
 
       # - name: (L) libjxl
       #   run: python Telegram/build/prepare/prepare.py libjxl qt6
 
-      - name: (L) libvpx
-        run: python Telegram/build/prepare/prepare.py libvpx qt6
+      # - name: (L) libvpx
+      #   run: python Telegram/build/prepare/prepare.py libvpx qt6
 
       # - name: (L) liblcms2
       #   run: python Telegram/build/prepare/prepare.py liblcms2 qt6
