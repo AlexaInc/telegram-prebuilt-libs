@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      C3CD3F04BC752080218B1BB3970B1B46256C4E47
+      346DE7E416ACAC7FA9B1DAFD9F71CC6AD05DD926
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEw80/BLx1IIAhixuzlwsbRiVsTkcFAmnzJegCHQAACgkQlwsb
-RiVsTkfx7w//cvjjZM1cTl2jv8e/bRCwiasHrkFAxP+lfMAegsvqeMdUuyjNOSXU
-XU7lCM9PwClDb6QS8vgceQNe/wdjwbh8zPFhUvvOzKk7i3By++Sft4aAf4/Y8kzm
-2alsJT63U1gy2o/x3mlZQ3mM2tEO6r951+hQQqL0rdVAzAIsW4SSztiGAr97bv/u
-4zEx1JFR2sFecdHCB+GTviUT1KW9eqeFpzBWNzPEiKlhhGucvfV2ODlVDmXoMK2l
-Wd+n1Cp08Brngr9leBxoQ6mjxstDddY2UbMBwBzZkIco4UBaC1TGvrA77RSsYqTM
-SmokWnJi5kqLyQ4pif54TZIJhGnHGsVGCBiowXvoKD1dAJEYPjja7XOexi6C5iC3
-vg4ZFyN4LAdX60yhjNpp6N4weTL6WOmQp63CFzjmoluWSBea8hpYSRywECEET2Ki
-WHf2I7m+LWCnSbJ4VknrvQmWIaaRi3krg76ogA7xfAsNJkkJVfb38J42K3wpoAsr
-ir61UqHswCkqnP8n5f4Wo4EntWIjK4iD1qr2Z8FeA5SbUatJYplBfOZIGhFcz940
-ioQZkicUez458rZI4kLV6p4Yn46PBpePvxBITvSLlmSOek9KE2jN6JSJR9D/UfNo
-MZCrhXpk02qnpXWohSzjuy7zXnx3mR8PiJTb8DxF7NyYNd2SlbQkBrI=
-=u2jH
+iQI2BCABCAAgFiEENG3n5BasrH+psdr9n3HMatBd2SYFAmnzK8ICHQAACgkQn3HM
+atBd2Sb/bQ//cxEH8XWEoJ0EJvm0nr2jUpXszLR2jXDc8vnqjoJQ7nt6Vrgjb/rH
+AS1vLwxiCyDGS2hv1mnBtm/EqdG3o3l8OfZZNJigPzTSHGSjJUGW2eoNhOFl4t8b
+cmT4o+iQV+PFezsOXDXy/cVxvBU96sYmIynh/QeJwgrUW35++CDCTAK2nCDDujCj
+JyzTvznyikvnI+imL4/aUT5dUAVycINH8c6S/bTAJhZhmKxON8z787km0c6Ivc/3
+2RMzHWXn1329UTdeCTVu2UoS9HrhCMFJTq3qr03Dv8ohkw4hWXlMRCmWBivBuSf4
+eOxOaJhAXNlntfo1GjUp0PSbd2lYSP6NYtemGooyRkToNGAgvymcwQBIslXRvLKq
+1EC3vcWxjn+5LW8ipf6kI0WS1KLvAtva3BjCDWcdizPc17+99fbuenvbgRpgcGiD
+++fk9EMkGzkoqoXrBrfw6AkpvZ1ri5UOFremlh/I3G/VbJmoCQLeAKWpQZ80WQht
+7byHW7CXnEiXQW5SLXybQyD2DTtRX8gSpT5eirrm6cSdMy5haIyWgGRH6UYrKcZG
+wT9nLqzOmgNt6CIGm7euNTLsd+UyPQKTjNB0TL3IyL9ZiNazwYWIwxkfQT/DYzyT
+v0VwJRZzCYuoG8+dlNz/ol5ObgeHv4fTe+9hMetOCdx8ahVTZD1PnlE=
+=jsVv
 -----END PGP PUBLIC KEY BLOCK-----
