@@ -1,0 +1,13 @@
+prefix=D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libavif
+Description: Library for encoding and decoding .avif files
+Version: 1.3.0
+Libs: -L${libdir} -lavif
+Libs.private:
+Cflags: -I${includedir}
+Cflags.private: -UAVIF_DLL
+Requires.private: dav1d

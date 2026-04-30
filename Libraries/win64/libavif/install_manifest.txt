@@ -1,0 +1,4 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/avif.lib
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib/pkgconfig/libavif.pc
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/avif/avif.h
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/include/avif/avif_cxx.h
