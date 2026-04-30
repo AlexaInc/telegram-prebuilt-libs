@@ -59,9 +59,14 @@ jobs:
       - name: (L) gas-preprocessor
         run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
 
-      # SKIP ALL LIBRARIES (ALREADY BUILT AND IN REPO)
-      # - name: (L) lzma ...
+      # RE-ENABLE MOZJPEG (REQUIRED FOR JCONFIG.H)
+      - name: (L) mozjpeg
+        run: |
+          python Telegram/build/prepare/prepare.py mozjpeg qt6
+          git add Libraries/win64/mozjpeg Libraries/win64/cache_keys/mozjpeg
+          git diff --quiet --staged || (git commit -m "Sync mozjpeg artifacts (fix jconfig.h)" && git push)
 
+      # START QT 6
       - name: (L) qt_6.11.0
         run: |
           python Telegram/build/prepare/prepare.py qt_6.11.0 qt6
