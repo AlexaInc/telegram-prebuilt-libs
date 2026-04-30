@@ -1,0 +1,7 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/zlib.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/zlibstatic.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/test.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/edit_cache.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/rebuild_cache.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/install.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/zlib/CMakeFiles/install/local.dir
