@@ -1,0 +1,9 @@
+# ninja log v7
+5	738	7992501048589952	obj/common/windows/common.guid_string.obj	1553695db9b34233
+9	764	7992501048630333	obj/common/windows/common.string_utils.obj	de224fb5b613a51f
+2	948	7992501048569727	obj/client/windows/crash_generation/crash_generation_client.crash_generation_client.obj	903a086ad0e98052
+949	1071	7992501058038067	obj/client/windows/crash_generation/crash_generation_client.lib	3f07884113ab6e65
+7	1182	7992501048610102	obj/common/windows/common.http_upload.obj	8a5a2234e3be458a
+11	1200	7992501048650504	obj/client/windows/handler/exception_handler.exception_handler.obj	26e5327b041054d2
+1182	1286	7992501060354443	obj/client/windows/common.lib	5c2620956a644082
+1201	1297	7992501060554149	obj/client/windows/handler/exception_handler.lib	869fb86ee53df843
