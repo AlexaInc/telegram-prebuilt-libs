@@ -1,0 +1,14 @@
+prefix=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local
+exec_prefix=${prefix}
+libdir=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local/lib
+includedir=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil user32.lib bcrypt.lib
+Libs.private: 
+Cflags: -I${includedir}

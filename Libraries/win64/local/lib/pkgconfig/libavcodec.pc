@@ -1,0 +1,14 @@
+prefix=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local
+exec_prefix=${prefix}
+libdir=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local/lib
+includedir=/d/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/patches/../local/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: libswresample >= 4.12.100, libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -libpath:../local/lib/x64 vpxmt.lib -libpath:../local/lib/x64 vpxmt.lib -libpath:../local/lib dav1d.lib -libpath:D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/local/lib opus.lib -libpath:../local/lib openh264.lib ole32.lib user32.lib
+Libs.private: 
+Cflags: -I${includedir}
