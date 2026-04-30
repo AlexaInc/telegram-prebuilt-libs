@@ -485,7 +485,9 @@ def runStages():
                         if item not in keep_folders:
                             shutil.rmtree(item_path, ignore_errors=True)
                     else:
-                        os.remove(item_path)
+                        # Keep important build results in the root
+                        if not any(item.endswith(ext) for ext in ['.h', '.lib', '.a', '.pdb', '.pc']):
+                            os.remove(item_path)
 
             old_dir = os.getcwd()
             os.chdir(rootDir)
