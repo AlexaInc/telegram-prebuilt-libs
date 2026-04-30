@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      C17EE50B7398A0A8419A5F9912C5CDC93DFCF09B
+      A4A18C82EC41C49FA4E49307DE1C82EE6D1A6DEA
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEwX7lC3OYoKhBml+ZEsXNyT388JsFAmnzONcCHQAACgkQEsXN
-yT388Jtp7BAAvz96eVj1tUlQb3uZ7jg69lXkRJ4qfKqjyrPJ3/UA7DAsNbrsO4YZ
-TDQ8jwq+h7HGnmVHVLHPWUqt1+emsfwFlXH4krNEMIXi36MhWzg9xteRlwsbcmVX
-d+fw0od0LvRTCNnnnz+lz4nlPsG7hmbfwIqn7yYohW5ZtFuuVLlcaj5YQ251SBaO
-iDN30TQTPszvmMQ0E9QZVLroOHvPZvOD1xJFLWtcdi4RYp6VqXNQiFbGKtDIUA1P
-9RnhUMmc0wzVj5TkQkodqHTuFWqL4qShYY96ELFPKSUMz9YMgts3C6I2u+PZkpSZ
-UE+tJESfDi3wJ1zHE3d3h5uyjiicBIC2G2q5qj/WsB2d7ogPXm/QMDyjPxz6sZn/
-xKiqDo7SZ9UNrTDxc5tmtxcJMRPOhCYcdpUyFeUQiQSTP+cYAYlSEPj/lDa/Zi8j
-nLDMaQqK3tJkJuqxbiEp9AmG4EbafJKr+PXZqcsB0rKGYa2QqSBEG+ofGpQhrmMX
-b6lZuBb5+qUlTjf7BxE3AO7n502BD1gOYcNihpzG/QLDlLp3epyqa8mJqMIlTF0R
-gMjdABNgw2wuzK4q2oK/z+uLUIv9pjuRuyArH4pn0NJTsjP/qaeIGCPkmppy+NXP
-GtdDgzc5g5in3yzoXTDM4x72S13vtj13TU1TK2X+Tj2Bz8VGXASrx+Q=
-=EOcP
+iQI2BCABCAAgFiEEpKGMguxBxJ+k5JMH3hyC7m0abeoFAmnzSsACHQAACgkQ3hyC
+7m0abeoZ3A//Q4AarlRWM+GR7PtO8OsUHA75fKZB0K2d9N1FKKcJT5uSazWAF1vK
+Gmuw/LjBc7NQFM/7LCFHx5aodoBSR0NTdRs8LX7XcLPVnazhILRio5f7ck9zf+z8
+lQ044ENQtnCzmg7/hVZl7/u2st3k9jxS0pZGb6yazWPNvaUlEmnZRNJ0BD64yFBz
+SWgMwxncnY0Z/TVhmpl/sDZgbtFn44iZ9ib/6nJyhPd5fqOQG1q9KhEBQOmNCy4z
+/VQDzTADK0GZIHs03hK60zZ9exOG1aJkAPIsqoJgG0H/F9n1DK5ppNLN7HOQLCYx
+FHmDlzeF0hPZQUJqARcLWLvGldzMe4dYcMqnWghXrprSvJT6rN8tkC6h2M1wAkSX
+uV+aaUU6twqy4z1VIv/P+0TbWrOAh282VMdaZz1+7lRrqELXb0Z6U4330VJdX6l7
+0ELEpnNTxVCQTBGMoH2tUpkfCGHQS9a9OdtI+Wz+TQY2ekiBWdeIQURf91/Y+82Y
+aWs2L1SfiP91GY021kNVBqrrYsfU7JSNTzlNsPSUtpieQ3pHIqrJywWf3BC9dxkM
+spwBld6PajFxTzC8OILxnG9gr9BMvp7A9xtzdCbK53bK/3AKl8wsad0pWRLpPteO
+zkVXgqyb09PKenz+UZcCOxQ2eNevUqgp940RAG9xrophuG+gpJbXCMk=
+=Uzjn
 -----END PGP PUBLIC KEY BLOCK-----
