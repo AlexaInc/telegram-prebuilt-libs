@@ -4,11 +4,9 @@ pushd `dirname $0` > /dev/null
 FullScriptPath=`pwd`
 popd > /dev/null
 
-cd $FullScriptPath/../nv-codec-headers
-make PREFIX="$FullScriptPath/../local" install
 cd $FullScriptPath/../ffmpeg
 
-export PKG_CONFIG_PATH="$FullExecPath/../local/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PKG_CONFIG_PATH=../local/lib/pkgconfig
 export PATH="$FullExecPath/../gas-preprocessor:$PATH"
 echo \#\!/bin/sh > $FullExecPath/../gas-preprocessor/cpp
 echo cl \${@:1} >> $FullExecPath/../gas-preprocessor/cpp
