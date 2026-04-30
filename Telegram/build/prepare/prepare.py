@@ -1215,6 +1215,8 @@ mac:
 stage('nv-codec-headers', """
 win:
     git clone -b n12.1.14.0 https://github.com/FFmpeg/nv-codec-headers.git
+depends:nv-codec-headers/Makefile
+    bash -c "cd nv-codec-headers && make PREFIX=../local install"
 """)
 
 stage('regex', """
