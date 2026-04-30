@@ -143,19 +143,20 @@ elif (mac):
         'CMAKE_GENERATOR': 'Ninja',
     })
 
-ignoreInCacheForThirdParty = [
-    'USED_PREFIX',
+ignoreInCache = [
+    'ROOT_DIR',
     'LIBS_DIR',
-    'SPECIAL_TARGET',
-    'X8664',
+    'THIRDPARTY_DIR',
+    'PATH_PREFIX',
+    'USED_PREFIX',
 ]
 
 environmentKeyString = ''
 envForThirdPartyKeyString = ''
 for key in environment:
     part = key + '=' + environment[key] + ';'
-    environmentKeyString += part
-    if not key in ignoreInCacheForThirdParty:
+    if not key in ignoreInCache:
+        environmentKeyString += part
         envForThirdPartyKeyString += part
 environmentKey = hashlib.sha1(environmentKeyString.encode('utf-8')).hexdigest()
 envForThirdPartyKey = hashlib.sha1(envForThirdPartyKeyString.encode('utf-8')).hexdigest()
@@ -428,7 +429,7 @@ def runStages():
             if checkResult == 'Stale':
                 print_flushed('CHANGED, ', end='')
             if rebuildStale:
-                checkResult == 'Rebuild'
+                checkResult = 'Rebuild'
             else:
                 print_flushed('(r)ebuild, rebuild (a)ll, (s)kip, (p)rint, (q)uit?: ', end='', flush=True)
                 while True:
@@ -488,17 +489,16 @@ def runStages():
 
             old_dir = os.getcwd()
             os.chdir(rootDir)
-            subprocess.run("git add Libraries", shell=True)
-            subprocess.run("git add ThirdParty", shell=True)
-            subprocess.run("git add patches", shell=True)
+            subprocess.run("git add -A", shell=True)
             subprocess.run(f'git commit -m "Auto-build: {stage["name"]} [skip ci]"', shell=True)
             
             # Retry push loop to handle flaky runner networking or conflicts
             for retry in range(5):
                 print_flushed(f"Push attempt {retry+1}...")
-                subprocess.run("git pull --rebase origin master", shell=True)
-                if subprocess.run("git push origin master", shell=True).returncode == 0:
-                    break
+                subprocess.run("git fetch origin master", shell=True)
+                if subprocess.run("git pull --rebase --autostash origin master", shell=True).returncode == 0:
+                    if subprocess.run("git push origin master", shell=True).returncode == 0:
+                        break
                 time.sleep(10)
             
             os.chdir(old_dir)
@@ -1245,7 +1245,7 @@ winarm:
     SET "ARCH_PARAM=--arch=aarch64"
 win:
 depends:patches/build_ffmpeg_win.sh
-    python -c "data=open('../patches/build_ffmpeg_win.sh', 'rb').read().replace(b'\\r\\n', b'\\n').replace(b'cd $FullScriptPath/../nv-codec-headers\\nmake PREFIX=\"$FullScriptPath/../local\" install\\n', b''); open('../patches/build_ffmpeg_win.sh', 'wb').write(b'#!/bin/bash\\nset -ex\\n' + data)"
+    python -c "data=open('../patches/build_ffmpeg_win.sh', 'rb').read().replace(b'\\r\\n', b'\\n'); data=data.replace(b'cd $FullScriptPath/../nv-codec-headers\\nmake PREFIX=\"$FullScriptPath/../local\" install\\n', b''); open('../patches/build_ffmpeg_win.sh', 'wb').write(b'#!/bin/bash\\nset -ex\\n' + data)"
     if not exist %THIRDPARTY_DIR%\\msys64\\tmp mkdir %THIRDPARTY_DIR%\\msys64\\tmp
     bash -c "mkdir -p /tmp && bash ../patches/build_ffmpeg_win.sh || (cat ffbuild/config.log && exit 1)"
 mac:
@@ -1446,7 +1446,7 @@ mac:
     cd stackwalk
     git checkout dfcb7b6799
 depends:patches/breakpad.diff
-    git apply ../patches/breakpad.diff
+    git apply --3way --ignore-space-change --ignore-whitespace ../patches/breakpad.diff
     git clone -b release-1.11.0 https://github.com/google/googletest src/testing
     git clone https://chromium.googlesource.com/linux-syscall-support src/third_party/lss
     cd src/third_party/lss
@@ -1462,7 +1462,7 @@ stage('breakpad', """
     cd breakpad
     git checkout dfcb7b6799
 depends:patches/breakpad.diff
-    git apply ../patches/breakpad.diff
+    git apply --3way --ignore-space-change --ignore-whitespace ../patches/breakpad.diff
     git clone -b release-1.11.0 https://github.com/google/googletest src/testing
 win:
     SET "PYTHONUTF8=1"
@@ -1582,7 +1582,7 @@ win:
     cd qtbase
     setlocal enabledelayedexpansion
     for /r %%i in (..\\..\\patches\\qtbase_%QT%\\*) do (
-        git apply %%i -v
+        git apply --3way --ignore-space-change --ignore-whitespace %%i -v
         if errorlevel 1 (
             echo ERROR: Applying patch %%~nxi failed!
             exit /b 1
@@ -1698,7 +1698,7 @@ mac:
     cmake --install .
 win:
     cd qtbase
-    for /r %%i in (..\\..\\patches\\qtbase_%QT%\\*) do git apply %%i -v
+    for /r %%i in (..\\..\\patches\\qtbase_%QT%\\*) do git apply --3way --ignore-space-change --ignore-whitespace %%i -v
     cd ..
 
     SET CONFIGURATIONS=-debug

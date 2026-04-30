@@ -56,59 +56,59 @@ jobs:
       - name: (L) gyp
         run: python Telegram/build/prepare/prepare.py gyp qt6
 
-      - name: (L) lzma
-        run: python Telegram/build/prepare/prepare.py lzma qt6
+      # - name: (L) lzma
+      #   run: python Telegram/build/prepare/prepare.py lzma qt6
 
-      - name: (L) zlib
-        run: python Telegram/build/prepare/prepare.py zlib qt6
+      # - name: (L) zlib
+      #   run: python Telegram/build/prepare/prepare.py zlib qt6
 
       - name: (L) mozjpeg
         run: python Telegram/build/prepare/prepare.py mozjpeg qt6
 
-      - name: (L) openssl3
-        run: python Telegram/build/prepare/prepare.py openssl3 qt6
+      # - name: (L) openssl3
+      #   run: python Telegram/build/prepare/prepare.py openssl3 qt6
 
-      - name: (L) opus
-        run: python Telegram/build/prepare/prepare.py opus qt6
+      # - name: (L) opus
+      #   run: python Telegram/build/prepare/prepare.py opus qt6
 
-      - name: (L) rnnoise
-        run: python Telegram/build/prepare/prepare.py rnnoise qt6
+      # - name: (L) rnnoise
+      #   run: python Telegram/build/prepare/prepare.py rnnoise qt6
 
-      - name: (L) gas-preprocessor
-        run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
+      # - name: (L) gas-preprocessor
+      #   run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
 
-      - name: (L) dav1d
-        run: python Telegram/build/prepare/prepare.py dav1d qt6
+      # - name: (L) dav1d
+      #   run: python Telegram/build/prepare/prepare.py dav1d qt6
 
       - name: (L) openh264
         run: python Telegram/build/prepare/prepare.py openh264 qt6
 
-      - name: (L) libavif
-        run: python Telegram/build/prepare/prepare.py libavif qt6
+      # - name: (L) libavif
+      #   run: python Telegram/build/prepare/prepare.py libavif qt6
 
       - name: (L) libde265
         run: python Telegram/build/prepare/prepare.py libde265 qt6
 
-      - name: (L) libwebp
-        run: python Telegram/build/prepare/prepare.py libwebp qt6
+      # - name: (L) libwebp
+      #   run: python Telegram/build/prepare/prepare.py libwebp qt6
 
       - name: (L) libheif
         run: python Telegram/build/prepare/prepare.py libheif qt6
 
-      - name: (L) libjxl
-        run: python Telegram/build/prepare/prepare.py libjxl qt6
+      # - name: (L) libjxl
+      #   run: python Telegram/build/prepare/prepare.py libjxl qt6
 
       - name: (L) libvpx
         run: python Telegram/build/prepare/prepare.py libvpx qt6
 
-      - name: (L) liblcms2
-        run: python Telegram/build/prepare/prepare.py liblcms2 qt6
+      # - name: (L) liblcms2
+      #   run: python Telegram/build/prepare/prepare.py liblcms2 qt6
 
-      - name: (L) nv-codec-headers
-        run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
+      # - name: (L) nv-codec-headers
+      #   run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
 
-      - name: (L) regex
-        run: python Telegram/build/prepare/prepare.py regex qt6
+      # - name: (L) regex
+      #   run: python Telegram/build/prepare/prepare.py regex qt6
 
       - name: (L) ffmpeg
         run: python Telegram/build/prepare/prepare.py ffmpeg qt6
