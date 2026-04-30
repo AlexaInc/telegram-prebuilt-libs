@@ -56,78 +56,128 @@ jobs:
       - name: (L) gyp
         run: python Telegram/build/prepare/prepare.py gyp qt6
 
-      # - name: (L) lzma
-      #   run: python Telegram/build/prepare/prepare.py lzma qt6
-
-      # - name: (L) zlib
-      #   run: python Telegram/build/prepare/prepare.py zlib qt6
-
-      # - name: (L) mozjpeg
-      #   run: python Telegram/build/prepare/prepare.py mozjpeg qt6
-
-      # - name: (L) openssl3
-      #   run: python Telegram/build/prepare/prepare.py openssl3 qt6
-
-      # - name: (L) opus
-      #   run: python Telegram/build/prepare/prepare.py opus qt6
-
-      # - name: (L) rnnoise
-      #   run: python Telegram/build/prepare/prepare.py rnnoise qt6
-
-      # - name: (L) gas-preprocessor
-      #   run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
-
-      # - name: (L) dav1d
-      #   run: python Telegram/build/prepare/prepare.py dav1d qt6
-
-      # - name: (L) openh264
-      #   run: python Telegram/build/prepare/prepare.py openh264 qt6
-
-      # - name: (L) libavif
-      #   run: python Telegram/build/prepare/prepare.py libavif qt6
-
-      # - name: (L) libde265
-      #   run: python Telegram/build/prepare/prepare.py libde265 qt6
-
-      # - name: (L) libwebp
-      #   run: python Telegram/build/prepare/prepare.py libwebp qt6
-
-      # - name: (L) libheif
-      #   run: python Telegram/build/prepare/prepare.py libheif qt6
-
-      # - name: (L) libjxl
-      #   run: python Telegram/build/prepare/prepare.py libjxl qt6
-
-      # - name: (L) libvpx
-      #   run: python Telegram/build/prepare/prepare.py libvpx qt6
-
-      # - name: (L) liblcms2
-      #   run: python Telegram/build/prepare/prepare.py liblcms2 qt6
-
-      - name: (L) restore-headers
+      - name: (L) lzma
         run: |
-          mkdir -p Libraries/win64/zlib Libraries/win64/mozjpeg Libraries/win64/libwebp
-          curl -L https://github.com/madler/zlib/archive/v1.3.1.tar.gz -o zlib.tar.gz
-          tar -xzf zlib.tar.gz --strip-components=1 -C Libraries/win64/zlib
-          curl -L https://github.com/mozilla/mozjpeg/archive/v4.1.5.tar.gz -o mozjpeg.tar.gz
-          tar -xzf mozjpeg.tar.gz --strip-components=1 -C Libraries/win64/mozjpeg
-          curl -L https://github.com/webmproject/libwebp/archive/v1.6.0.tar.gz -o libwebp.tar.gz
-          tar -xzf libwebp.tar.gz --strip-components=1 -C Libraries/win64/libwebp
+          python Telegram/build/prepare/prepare.py lzma qt6
+          git add Libraries/win64/lzma Libraries/win64/cache_keys/lzma
+          git diff --quiet --staged || (git commit -m "Sync lzma artifacts" && git push)
 
-      # - name: (L) nv-codec-headers
-      #   run: python Telegram/build/prepare/prepare.py nv-codec-headers qt6
+      - name: (L) zlib
+        run: |
+          python Telegram/build/prepare/prepare.py zlib qt6
+          git add Libraries/win64/zlib Libraries/win64/cache_keys/zlib
+          git diff --quiet --staged || (git commit -m "Sync zlib artifacts" && git push)
 
-      # - name: (L) regex
-      #   run: python Telegram/build/prepare/prepare.py regex qt6
+      - name: (L) mozjpeg
+        run: |
+          python Telegram/build/prepare/prepare.py mozjpeg qt6
+          git add Libraries/win64/mozjpeg Libraries/win64/cache_keys/mozjpeg
+          git diff --quiet --staged || (git commit -m "Sync mozjpeg artifacts" && git push)
+
+      - name: (L) openssl3
+        run: |
+          python Telegram/build/prepare/prepare.py openssl3 qt6
+          git add Libraries/win64/openssl3 Libraries/win64/cache_keys/openssl3
+          git diff --quiet --staged || (git commit -m "Sync openssl3 artifacts" && git push)
+
+      - name: (L) opus
+        run: |
+          python Telegram/build/prepare/prepare.py opus qt6
+          git add Libraries/win64/opus Libraries/win64/cache_keys/opus
+          git diff --quiet --staged || (git commit -m "Sync opus artifacts" && git push)
+
+      - name: (L) rnnoise
+        run: |
+          python Telegram/build/prepare/prepare.py rnnoise qt6
+          git add Libraries/win64/rnnoise Libraries/win64/cache_keys/rnnoise
+          git diff --quiet --staged || (git commit -m "Sync rnnoise artifacts" && git push)
+
+      - name: (L) gas-preprocessor
+        run: python Telegram/build/prepare/prepare.py gas-preprocessor qt6
+
+      - name: (L) dav1d
+        run: |
+          python Telegram/build/prepare/prepare.py dav1d qt6
+          git add Libraries/win64/dav1d Libraries/win64/cache_keys/dav1d
+          git diff --quiet --staged || (git commit -m "Sync dav1d artifacts" && git push)
+
+      - name: (L) openh264
+        run: |
+          python Telegram/build/prepare/prepare.py openh264 qt6
+          git add Libraries/win64/openh264 Libraries/win64/cache_keys/openh264
+          git diff --quiet --staged || (git commit -m "Sync openh264 artifacts" && git push)
+
+      - name: (L) libavif
+        run: |
+          python Telegram/build/prepare/prepare.py libavif qt6
+          git add Libraries/win64/libavif Libraries/win64/cache_keys/libavif
+          git diff --quiet --staged || (git commit -m "Sync libavif artifacts" && git push)
+
+      - name: (L) libde265
+        run: |
+          python Telegram/build/prepare/prepare.py libde265 qt6
+          git add Libraries/win64/libde265 Libraries/win64/cache_keys/libde265
+          git diff --quiet --staged || (git commit -m "Sync libde265 artifacts" && git push)
+
+      - name: (L) libwebp
+        run: |
+          python Telegram/build/prepare/prepare.py libwebp qt6
+          git add Libraries/win64/libwebp Libraries/win64/cache_keys/libwebp
+          git diff --quiet --staged || (git commit -m "Sync libwebp artifacts" && git push)
+
+      - name: (L) libheif
+        run: |
+          python Telegram/build/prepare/prepare.py libheif qt6
+          git add Libraries/win64/libheif Libraries/win64/cache_keys/libheif
+          git diff --quiet --staged || (git commit -m "Sync libheif artifacts" && git push)
+
+      - name: (L) libjxl
+        run: |
+          python Telegram/build/prepare/prepare.py libjxl qt6
+          git add Libraries/win64/libjxl Libraries/win64/cache_keys/libjxl
+          git diff --quiet --staged || (git commit -m "Sync libjxl artifacts" && git push)
+
+      - name: (L) libvpx
+        run: |
+          python Telegram/build/prepare/prepare.py libvpx qt6
+          git add Libraries/win64/libvpx Libraries/win64/cache_keys/libvpx
+          git diff --quiet --staged || (git commit -m "Sync libvpx artifacts" && git push)
+
+      - name: (L) liblcms2
+        run: |
+          python Telegram/build/prepare/prepare.py liblcms2 qt6
+          git add Libraries/win64/liblcms2 Libraries/win64/cache_keys/liblcms2
+          git diff --quiet --staged || (git commit -m "Sync liblcms2 artifacts" && git push)
+
+      - name: (L) nv-codec-headers
+        run: |
+          python Telegram/build/prepare/prepare.py nv-codec-headers qt6
+          git add Libraries/win64/nv-codec-headers Libraries/win64/cache_keys/nv-codec-headers Libraries/win64/local/lib/pkgconfig
+          git diff --quiet --staged || (git commit -m "Sync nv-codec-headers artifacts" && git push)
+
+      - name: (L) regex
+        run: |
+          python Telegram/build/prepare/prepare.py regex qt6
+          git add Libraries/win64/regex Libraries/win64/cache_keys/regex
+          git diff --quiet --staged || (git commit -m "Sync regex artifacts" && git push)
 
       - name: (L) ffmpeg
-        run: python Telegram/build/prepare/prepare.py ffmpeg qt6
+        run: |
+          python Telegram/build/prepare/prepare.py ffmpeg qt6
+          git add Libraries/win64/ffmpeg.tar.gz
+          git diff --quiet --staged || (git commit -m "Sync ffmpeg artifacts" && git push)
 
       - name: (L) openal-soft
-        run: python Telegram/build/prepare/prepare.py openal-soft qt6
+        run: |
+          python Telegram/build/prepare/prepare.py openal-soft qt6
+          git add Libraries/win64/openal-soft
+          git diff --quiet --staged || (git commit -m "Sync openal-soft artifacts" && git push)
 
       - name: (L) breakpad
-        run: python Telegram/build/prepare/prepare.py breakpad qt6
+        run: |
+          python Telegram/build/prepare/prepare.py breakpad qt6
+          git add Libraries/win64/breakpad
+          git diff --quiet --staged || (git commit -m "Sync breakpad artifacts" && git push)
 
       - name: (L) qt_6.11.0
         run: python Telegram/build/prepare/prepare.py qt_6.11.0 qt6
