@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      9136D88531B6E03A9FE294953CCBE9B241788990
+      2785403004C348B103B43F0D2C848DF5F317D66F
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEkTbYhTG24Dqf4pSVPMvpskF4iZAFAmnzDbICHQAACgkQPMvp
-skF4iZBTSw//fM7QINKbFPABtjwOCbiydCJFHdpHjVLvGfocW4mqBcyM9hPEStbP
-LYCSXlsnZ/+nrIBOBRv16oTRoJPzNtcA+Ugb+snsKSBtGs1n8Z/G2YBsUsJBv3+E
-XifPUi0kHmSuS0YEEFJFAVUB99NRi+2hrRZgIPLwZ5upWA5SXymPXcZOpkrqI6d7
-tGii6mICGHFap0oQ6sgefvy2XgxI9RFATADZM1IA4xC+FK2ViakQnDxepnnLZuGw
-WkvGTKNOzc47mDx6ZTWWzmn52ImsHwL2BxQphoDb27U9yCXggGf4wWys55J9Kvs6
-alWehCWfzQ/6meYcod0fGNT4LO5FzSVa6ahARXxGalxIY9kR5Kuq2zG4cWygnkp8
-cyzE8vwiv6QR6WwAKuM2qWOx2VW0QZ1erxE9bv7sq0MwQr2PcHGS4RrcrNgRq/ko
-rl+tnkIKl6R1XRw+C323S9gvKF6hYkwDGJFDlaSHoL4v/lN0kx7lR75lrNDpsWkK
-3ldkZBMefbF4TZWBqPJQe4c1cznKCUcFJ5itrrSx/xJxF5fIGS6oHRsf7tNnU3aE
-tBm4L4P8ToWQyTgR7aA+qfoEE6WYKKoCvpFWeuDDcu5TeRbKrvvwUqBiF4uDcTl4
-2UEsaziRfMkMjE1mASSmWbbiQXzyqWmkxHgQvkTeluEL9Q+3bSGDLik=
-=l7Ok
+iQI2BCABCAAgFiEEJ4VAMATDSLEDtD8NLISN9fMX1m8FAmnzEcsCHQAACgkQLISN
+9fMX1m93Kw/8Dp3FM2lsKogw+rbexZUydk997W4D57f/pFT9aapQYV2PWyox1CuA
+tG+G8so0341p4DR6LvAeIyoHTZJWyJUYSgTTiECVXl3qWHdyj7fKFKgN64HpcC3k
+btVip9dkin1DAmropQuEkTV/rm9n1IlqNXtAWAaS1uFmpAatZ+gpoFi3bn0PFdli
+qxHYKjs4tOXPzCw17jIdKULE3+2vhvNOJOpDqSkkzVeec6NNJ9bTnWqiknRxeXsP
+LgyNZazvpabzjdLUhmTEhGql8eoX7QMa5yVTo00fesbeCaN+ptv2+L/o1Aee1+Hx
+7tcKpQ5GfjZU6Y8zmFcml8Ax3DQdRheAU832hWXpG6MXtyVeUAQcRHZLzr+ZvkUD
+jE144WWXfWiHGhlGMqkBLx8+jm9DsN10QdtISClUZZtWYBAYmafyTZus/etub/ik
+zqb0ghjNP1QJIA+Xa4pY35DxHiWlwdyla29yNmfdDGk0xGa8ogHXq3dHLZgBcnqA
+oIrHHp1sdtAKt1Kre8WtpTJlbe4rSkAjuHF7AEzi7i2XRC4S7lkLFVd35+UgiGMv
+TZ7kTMOiys2OD/WZv7p0R7HUZb3fwbAgkYil+NxqVJ05eUhmMaFhttLCNVoPrvU+
+T7sfqZKoyMuzmQRjykjoKlpPm3JcSawa/WaG2a7JMa0TsjFBuIHD428=
+=qcD9
 -----END PGP PUBLIC KEY BLOCK-----
