@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libjxl/tools
+# Build directory: D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/libjxl/tools
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("conformance")
+subdirs("wasm_demo")
