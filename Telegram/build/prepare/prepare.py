@@ -1700,7 +1700,10 @@ mac:
     cmake --install .
 win:
     cd qtbase
-    for /r %%i in (..\\..\\patches\\qtbase_%QT%\\*) do git apply --3way --ignore-space-change --ignore-whitespace %%i -v
+    for /r %%i in (..\\..\\patches\\qtbase_%QT%\\*) do (
+        echo Applying patch: %%i
+        git apply --3way --ignore-space-change --ignore-whitespace %%i
+    )
     cd ..
 
     SET CONFIGURATIONS=-debug
@@ -1722,6 +1725,8 @@ win:
         -static ^
         -static-runtime ^
         -feature-c++20 ^
+        -nomake tests ^
+        -nomake examples ^
         -openssl linked ^
         -system-webp ^
         -system-zlib ^
