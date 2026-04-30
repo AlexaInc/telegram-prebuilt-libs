@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2026-04-30 [S]
-      A9DD82AFD6C9FA861BB49A80D74F1D5E82969054
+      9136D88531B6E03A9FE294953CCBE9B241788990
 uid          Pacman Keyring Master Key <pacman@localhost>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCAAgFiEEqd2Cr9bJ+oYbtJqA108dXoKWkFQFAmnzDRwCHQAACgkQ108d
-XoKWkFS1MRAAkNJZ3D57n+YPqBE/qEk4Mr7T960y2QeoRV+Ty2qxCDoJAiHpkiGJ
-WCqmhajwy9sw3FV1zCgZm6/Yig6tuo0P6jBHOOTV02pc32O8P23likl0oVdvgl7K
-jIRcYwULJjuFDUNioQdemJ0FP7hFkd4zcxTVUSc7XRq8IrEwFHfwC7muGUhUbrzg
-vCHLaJymOIAb0nWY3ZIdLoOWQdry1aVj5KjtOUcGPTweECb6qGBDLw/oAB+1b89Q
-tH0lDVdJB7Z+oc3spxiZGToqz9c8liyXRNbWZ2iop2hH9PFp8BR7rfDVuC0SJ1G9
-cNaeC5jo1abK0U54oruLpONvm+aaTNLn5tePyUGOFJYvwJ9JGHOmebtABJk4PgEm
-ye1Nf1oroUKGBjHYFq6dU4aXdffbTa3qUHJIrHxPG5UaB6bik6dH0lVisWLQiIut
-pFowVR9DDleyu3gUBE8Jdfv908TFZ0PTaNA4rVEk6EwfIYniswIk/fUHzOO8bXWG
-SupSeeptpRPOdrTwL6sk3DePpFD+TLzx6pkv5Y08gzLhPoflfBAC6Ppc4uYoym1z
-ekvUcyJMGWSz33PNKUcLmK89nVZDDaTXhPbwXXuutv/Y48gniG7zdWCwAX/XamGW
-JKV2/t/B+Eb5/WOE8RY+pf8chv/zqI/33gds9JO/ytItjDi1iWDGbcs=
-=SPFs
+iQI2BCABCAAgFiEEkTbYhTG24Dqf4pSVPMvpskF4iZAFAmnzDbICHQAACgkQPMvp
+skF4iZBTSw//fM7QINKbFPABtjwOCbiydCJFHdpHjVLvGfocW4mqBcyM9hPEStbP
+LYCSXlsnZ/+nrIBOBRv16oTRoJPzNtcA+Ugb+snsKSBtGs1n8Z/G2YBsUsJBv3+E
+XifPUi0kHmSuS0YEEFJFAVUB99NRi+2hrRZgIPLwZ5upWA5SXymPXcZOpkrqI6d7
+tGii6mICGHFap0oQ6sgefvy2XgxI9RFATADZM1IA4xC+FK2ViakQnDxepnnLZuGw
+WkvGTKNOzc47mDx6ZTWWzmn52ImsHwL2BxQphoDb27U9yCXggGf4wWys55J9Kvs6
+alWehCWfzQ/6meYcod0fGNT4LO5FzSVa6ahARXxGalxIY9kR5Kuq2zG4cWygnkp8
+cyzE8vwiv6QR6WwAKuM2qWOx2VW0QZ1erxE9bv7sq0MwQr2PcHGS4RrcrNgRq/ko
+rl+tnkIKl6R1XRw+C323S9gvKF6hYkwDGJFDlaSHoL4v/lN0kx7lR75lrNDpsWkK
+3ldkZBMefbF4TZWBqPJQe4c1cznKCUcFJ5itrrSx/xJxF5fIGS6oHRsf7tNnU3aE
+tBm4L4P8ToWQyTgR7aA+qfoEE6WYKKoCvpFWeuDDcu5TeRbKrvvwUqBiF4uDcTl4
+2UEsaziRfMkMjE1mASSmWbbiQXzyqWmkxHgQvkTeluEL9Q+3bSGDLik=
+=l7Ok
 -----END PGP PUBLIC KEY BLOCK-----
