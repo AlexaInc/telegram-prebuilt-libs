@@ -1,0 +1,2 @@
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/mozjpeg/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/edit_cache.dir
+D:/a/telegram-prebuilt-libs/telegram-prebuilt-libs/Libraries/win64/mozjpeg/simd/CMakeFiles/CheckASM_NASM/CMakeFiles/rebuild_cache.dir
