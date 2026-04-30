@@ -477,8 +477,8 @@ def runStages():
             srcDir = os.path.join(stage['directory'], stage['name'])
             if os.path.isdir(srcDir) and stage['name'] not in ['local', 'cache_keys', 'common', 'patches', 'msys64', 'python', 'NuGet', 'jom', 'gyp'] and stage['location'] != 'ThirdParty':
                 print_flushed(f"Cleaning up {stage['name']} source to save space...")
-                # Keep only what's typically needed (out, lib, include, bin, local)
-                keep_folders = ['out', 'out.dbg', 'lib', 'include', 'bin', 'local', 'dist']
+                # Keep only what's typically needed (out, lib, include, bin, local, src, Debug, Release, C)
+                keep_folders = ['out', 'out.dbg', 'lib', 'include', 'bin', 'local', 'dist', 'src', 'Debug', 'Release', 'C']
                 for item in os.listdir(srcDir):
                     item_path = os.path.join(srcDir, item)
                     if os.path.isdir(item_path):
