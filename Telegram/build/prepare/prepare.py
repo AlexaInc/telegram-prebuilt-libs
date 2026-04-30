@@ -1245,9 +1245,8 @@ winarm:
     SET "ARCH_PARAM=--arch=aarch64"
 win:
 depends:patches/build_ffmpeg_win.sh
-    python -c "data=open('../patches/build_ffmpeg_win.sh', 'rb').read().replace(b'\\r\\n', b'\\n'); data=data.replace(b'cd $FullScriptPath/../nv-codec-headers', b'# skipping headers').replace(b'make PREFIX=\"$FullScriptPath/../local\" install', b'# skipping install'); open('../patches/build_ffmpeg_win.sh', 'wb').write(b'#!/bin/bash\\nset -ex\\n' + data)"
     if not exist %THIRDPARTY_DIR%\\msys64\\tmp mkdir %THIRDPARTY_DIR%\\msys64\\tmp
-    bash -c "mkdir -p /tmp && bash ../patches/build_ffmpeg_win.sh || (cat ffbuild/config.log && exit 1)"
+    bash -c "mkdir -p /tmp && sed -i '/nv-codec-headers/d' ../patches/build_ffmpeg_win.sh && sed -i '/local.*install/d' ../patches/build_ffmpeg_win.sh && bash ../patches/build_ffmpeg_win.sh || (cat ffbuild/config.log && exit 1)"
 mac:
     export PKG_CONFIG_PATH=$USED_PREFIX/lib/pkgconfig
 
